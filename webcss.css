@@ -37,7 +37,7 @@ html{
         height: 5em;
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 20px;
-        justify-content:space-around;
+        justify-content:center;
         width: 100%;
 
     }
@@ -53,7 +53,7 @@ html{
     padding: 0%;
     list-style: none;
     display: flex;
-    position: relative;
+    justify-content: space-around;
 
 }
 span.topbtn{
@@ -82,6 +82,7 @@ span.topbtn a{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: .7em;
     font-weight: 500;
+    margin-left:;
 
 }
 a{
@@ -123,7 +124,8 @@ align-items: center;
 .webimg{
     display:inline-flex;
     justify-content: center;
-    width: 94%;
+    width: 95%;
+    max-width: 700px;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
@@ -148,9 +150,6 @@ background: rgb(255, 255, 255);
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -7px;
 transition: 100ms;
-}
-.aboutimg:hover::before{
-visibility: visible;
 }
 .violethead{
     display: flex;
@@ -217,7 +216,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.4em);
-    visibility: hidden;
 }
 .img1
 {
@@ -259,7 +257,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.4em);
-    visibility: hidden;
 }
 .bluehead{
     display: flex;
@@ -331,12 +328,6 @@ visibility: visible;
 
 
 }
-.whovr:hover::before
-{
-    visibility: visible;
-
-
-}
 .services{
     display: flex;
     padding-top: 4em;
@@ -392,7 +383,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.3em);
-    visibility: hidden;
 
 }
 .serweb:hover::before{
@@ -428,7 +418,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.3em);
-    visibility: hidden;
 
 }
 .sercon:hover::before{
@@ -462,7 +451,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.3em);
-    visibility: hidden;
 
 }
 .sersoc:hover::before{
@@ -513,7 +501,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.3em);
-    visibility: hidden;
 
 }
 .serblog:hover::before{
@@ -565,7 +552,6 @@ visibility: visible;
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.3em);
-    visibility: hidden;
 
 }
 .serpost:hover{
@@ -578,9 +564,19 @@ visibility: visible;
     .serow1{
         flex-direction: column;
     }
+    .serweb{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .sercon{
         margin-top: 4%;
         margin-bottom: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sersoc{
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .serow2{
         flex-direction: column;
@@ -588,6 +584,12 @@ visibility: visible;
     }
     .serblog{
         margin-bottom: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .serpost{
+        margin-left: 10%;
+        margin-right: 10%;
     }
     }
 media all and (max-width: 430px){
