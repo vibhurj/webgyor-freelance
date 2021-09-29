@@ -135,14 +135,13 @@ align-items: center;
 .webimg::before{
 content: "";
 position: absolute;
-background: conic-gradient( #fa339d93, #3db8f19d, #f8a034a1, #36f756a1, #f1383894);
-
-width: 98%;
-height: 99%;
-bottom: 0;
+background: conic-gradient( #fa339dce, #3db8f1bb, #f8a034bb, #36f756be, #f13838b0);
+width: 96.5%;
+height: 97%;
+top: .35em;
 border-radius: .7em;
-filter: blur(.23em);
-animation: spin .8s infinite ease-in-out alternate;
+filter: blur(.4em);
+animation: spin .5s infinite ease-in-out alternate;
 }
 @keyframes spin{
     0%{
