@@ -561,9 +561,11 @@ transition: 100ms;
     visibility: visible;
 }
 @media all and (max-width: 800px){
+
     .serow1{
         flex-direction: column;
     }
+
     .serweb{
         margin-left: 10%;
         margin-right: 10%;
@@ -590,6 +592,7 @@ transition: 100ms;
     .serpost{
         margin-left: 10%;
         margin-right: 10%;
+        margin-bottom: 5%;
     }
     }
 media all and (max-width: 430px){
