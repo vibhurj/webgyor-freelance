@@ -119,6 +119,7 @@ align-items: center;
 }
 .webimg{
     display: inline-block;
+    width: 98%;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
