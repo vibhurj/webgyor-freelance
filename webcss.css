@@ -92,7 +92,7 @@ a{
     padding-left: .6em;
     padding-right: .6em;
     position: relative;
-    color: rgb(232, 232, 233);
+    color: rgb(127, 127, 128);
     //background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(22, 22, 22), rgb(31, 31, 31));
     //box-shadow: rgb(15, 15, 15) 0px 9px 5px -6px;
 }
@@ -141,7 +141,7 @@ height: 96%;
 top: .6em;
 border-radius: .7em;
 filter: blur(.4em);
-animation: spin .5s infinite ease-in-out alternate;
+animation: spin 1s infinite ease-in-out alternate;
 }
 @keyframes spin{
     0%{
@@ -551,20 +551,19 @@ transition: 100ms;
     position: fixed;
     right: 1em;
     bottom: 1em;
-    background-color: rgb(35, 141, 184);
-    box-shadow: rgba(0, 0, 0, 0.445) .1em .1em .3em .1em;
-    border-radius: 3em;
+    background-color: rgba(140, 141, 141, 0.973);
+    box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
+    border-radius: 5em;
     cursor: pointer;
 }
 .gotop img{
-    width: 3em;
+    width: 1.9em;
 }
 .gotop a{
-    padding: .3em;
+    padding:
 }
 .gotop:hover{
-    padding: .1em;
-}
+    background-color: rgba(125, 126, 126, 0.973);}
 .serpost{
     position: relative;
     padding-top: .2em;
