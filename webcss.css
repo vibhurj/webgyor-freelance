@@ -2,7 +2,9 @@
 body{
     margin: 0%;
     padding: 0%;
-    background: rgb(255, 255, 255);
+    background-image: url(images/background.jpg);
+    background-size: 85%;
+    opacity: 95%;
 
 }
 html{
@@ -130,7 +132,7 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: rgba(0, 0, 0, 0.068);
+    background-color: rgba(0, 0, 0, 0.055);
 }
 .webimg::before{
 content: "";
@@ -184,6 +186,7 @@ animation: spin 1s infinite ease-in-out alternate;
     border-radius: .5em;
     width: 98%;
     max-width: 700px;
+    box-shadow: #00000031 0px 0px 225px 0px;
 }
 .aboutimg
 {
@@ -194,7 +197,8 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background: rgb(255, 255, 255);
+background-image: url(images/div.png);
+background-size: 50%;
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -7px;
 transition: 100ms;
@@ -284,10 +288,11 @@ transition: 100ms;
 .whovr{
     display: flex;
     position: relative;
+    background-image: url(images/div.png);
+    background-size: 50%;
     text-align: center;  
     width: 98%;
     max-width: 720px;
-    background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -7px;
     border-radius: .9em;
     margin-left: auto;
