@@ -123,6 +123,7 @@ align-items: center;
 }
 .webimg{
     display:inline-flex;
+    position: relative;
     justify-content: center;
     width: 95%;
     max-width: 700px;
@@ -131,8 +132,56 @@ align-items: center;
     border-radius: .7em;
     background-color: rgba(0, 0, 0, 0.068);
 }
+.webimg::before{
+content: "";
+position: absolute;
+background: conic-gradient( #fa339d93, #3db8f19d, #f8a034a1, #36f756a1, #f1383894);
+
+width: 98%;
+height: 99%;
+bottom: 0;
+border-radius: .7em;
+filter: blur(.23em);
+animation: spin .8s infinite ease-in-out alternate;
+}
+@keyframes spin{
+    0%{
+        background-position: -110px;
+    }
+    10%{
+        background-position: -180px;
+    }
+    20%{
+        background-position: -210px;
+    }
+    30%{
+        background-position: -250px;
+    }
+    40%{
+        background-position: -280px;
+    }
+    50%{
+        background-position: -310px;
+    }
+    60%{
+        background-position: -340px;
+    }
+    70%{
+        background-position: -360px;
+    }
+    80%{
+        background-position: -370px;
+    }
+    90%{
+        background-position: -380px;
+    }
+    100%{
+        background-position: -390px;
+    }
+}
 .webimg img{
     display: flex;
+    position: relative;
     border-radius: .5em;
     width: 98%;
     max-width: 700px;
@@ -371,6 +420,7 @@ transition: 100ms;
 }
 .serweb:hover{
     cursor: pointer;
+    box-shadow: #00b7ff 0px 0px 5px 3px;
 }
 .serweb::before{
     content: '';
@@ -385,9 +435,7 @@ transition: 100ms;
     filter: blur(.3em);
 
 }
-.serweb:hover::before{
-    visibility: visible;
-}
+
 .sercon{
     position: relative;
     text-align: center;
@@ -406,6 +454,7 @@ transition: 100ms;
 }
 .sercon:hover{
     cursor: pointer;
+    box-shadow: #00b7ff 0px 0px 5px 3px;
 }
 .sercon::before{
     content: '';
@@ -419,9 +468,6 @@ transition: 100ms;
     border-radius: .2em;
     filter: blur(.3em);
 
-}
-.sercon:hover::before{
-    visibility: visible;
 }
 .sersoc{
     position: relative;
@@ -439,6 +485,7 @@ transition: 100ms;
 }
 .sersoc:hover{
     cursor: pointer;
+    box-shadow: #00b7ff 0px 0px 5px 3px;
 }
 .sersoc::before{
     content: '';
@@ -452,9 +499,6 @@ transition: 100ms;
     border-radius: .2em;
     filter: blur(.3em);
 
-}
-.sersoc:hover::before{
-    visibility: visible;
 }
 .serow2{
     display: flex;
@@ -483,12 +527,12 @@ transition: 100ms;
 }
 .serblog p{
     margin-top: 0;
-    margin-bottom: 0em;
     margin-left: 2.4em;
     margin-right: 2.4em;
 }
 .serblog:hover{
     cursor: pointer;
+    box-shadow: #00b7ff 0px 0px 5px 3px;
 }
 .serblog::before{
     content: '';
@@ -502,9 +546,6 @@ transition: 100ms;
     border-radius: .2em;
     filter: blur(.3em);
 
-}
-.serblog:hover::before{
-    visibility: visible;
 }
 .gotop{
     display:inline-block;
@@ -537,7 +578,6 @@ transition: 100ms;
 }
 .serpost p{
     margin-top: auto;
-    margin-bottom: auto;
     margin-left: 2.4em;
     margin-right: 2.4em;
 }
@@ -556,9 +596,7 @@ transition: 100ms;
 }
 .serpost:hover{
     cursor: pointer;
-}
-.serpost:hover::before{
-    visibility: visible;
+    box-shadow: #00b7ff 0px 0px 5px 3px;
 }
 @media all and (max-width: 800px){
 
