@@ -8,12 +8,9 @@ body{
 html{
     scroll-behavior: smooth;
 }
-.header{
-    position:relative;
-}
-
 .bar{
     display:block;
+    width: 100%;
     height: 7vh;
     background-color: rgb(0, 0, 0);
     opacity: 85%;
@@ -23,40 +20,32 @@ html{
     
 }
 .gif{
-    max-width: 100%;
-    max-height: 100%;
+    height: 100%;;
 
 }
 .lognav{
     padding-top: 50px;
     display:flex;
     position: relative;
-    justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 20px;
 
     }
-.logo{
-    display: flex;
-    padding-top: 1em;
-    padding-left: 1em;
-    align-items: center;
-}
-.logo{
-    padding: 1em;
-    margin: 0%;
-    width: 10em;
-}
 .navi{
+    display: flex;
+        height: 5em;
         position: relative;
-        padding-right: .7em;
+        box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 20px;
+        justify-content:space-around;
+        width: 100%;
+
     }
 .navi li{
-    padding-left: .45em;
+    margin-top: 5%;
+    margin-left: .%;
 }
 .navi ul{
-
     margin: 0%;
     padding: 0%;
     list-style: none;
@@ -65,7 +54,8 @@ html{
 
 }
 span.topbtn{
-    display: flex;
+    display:flex;
+    width: 100%;
     position: relative;
     background: rgb(34, 74, 161);
     border-radius: 5em;
@@ -87,8 +77,9 @@ span.topbtn::before{
 span.topbtn a{
     display: flex;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .8rem;
+    font-size: .77rem;
     font-weight: 500;
+
 }
 a{
     display: flex;
@@ -114,28 +105,12 @@ span.topbtn:hover{
 span.topbtn:hover::before,span:focus::before{
     visibility: visible;
 }
-@media all and (max-width: 500px){
-    .bar{
-        width: 45em;   
-    }
-    .lognav{
-        width: 45em;
-    }
-
-}
-@media all and (max-width: 430px){
-    .bar{
-        width: 45.0245em;   
-    }
-    .lognav{
-        width: 45.0245em;
-    }
-}
 .aboutico{
    margin-top: .3em;
    margin-left: .5em;
 }
-section{
+.section1{
+    width: 100%;
 text-align: center;
 justify-content: center;
 align-items: center;
@@ -143,24 +118,24 @@ align-items: center;
 
 }
 .webimg{
+    display: inline-block;
     margin-top: 1em;
-    align-items: center;
-    display:inline-flex;
-    position: relative;
-    align-self: center;
-    justify-self: center;
     padding: .6em;
     border-radius: .7em;
     background-color: rgba(0, 0, 0, 0.068);
 }
 .webimg img{
+    display: flex;
     border-radius: .5em;
+    width: 100%;
+    max-width: 700px;
 }
 .aboutimg
 {
 display:flex;
 position: relative;
-width: 45rem;
+width: 98%;
+max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
@@ -212,7 +187,7 @@ visibility: visible;
     content: '';
     position: absolute;
     right: 0;
-    margin-right: .52em;
+    margin-right: em;
     width: .1rem;
     height: 12.3rem;
     background-color: rgb(243, 135, 220);;
@@ -221,7 +196,7 @@ visibility: visible;
 .about::after
 {
     content: '';
-    margin-right: .5em;
+    margin-right: .em;
     width: .19rem;
     height: 12rem;
     background-color: rgb(243, 135, 220);;
@@ -241,21 +216,26 @@ visibility: visible;
 }
 .img1
 {
+    width: 80%;
+    max-width: 160px;
     display: flex;
     align-items: center;
+    justify-content: end;
   }
 .img1 img
 {
-    margin-right: 1rem;
+    margin-right: 9%;
     border-radius: .4rem;
     box-shadow: rgba(0, 0, 0, 0.199) 5px 5px 5px;
+    width: 85%;
+    max-width: 150px;
 }
 .whovr{
     display: flex;
     position: relative;
-    align-content: center;
     text-align: center;  
-    width: 45rem;
+    width: 98%;
+    max-width: 720px;
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -7px;
     border-radius: .9em;
@@ -333,11 +313,18 @@ visibility: visible;
     margin-right: auto;
     margin-top: .9em;
     margin-bottom: .9em;
+    padding-right: 3%;
+    width: 85%;
+    max-width: 132px;
 }
 .whovrimg img{
     margin-right: .9em;
     box-shadow: rgba(0, 0, 0, 0.199) 5px 5px 5px;
     border-radius: .4em;
+    width: 100%;
+    max-width: 210px;
+
+
 }
 .whovr:hover::before
 {
@@ -362,26 +349,29 @@ visibility: visible;
     //font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     //text-shadow: rgba(0, 0, 0, 0.219) 3px 1px 3px;
 }
+.section2{
+    width: 100%;
+}
 .serow1{
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 650;
     font-size: .9em;
     color: cornflowerblue;
-    width: 45rem;
+    width: 98%;
+    max-width: 710px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
+    justify-content:space-around;
 }
 .serweb{
-    display: block;
     position: relative;
     padding: .2em;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     text-align: center;
     border-radius: .5em;
-    margin-left: 1em;
 }
 .serweb:hover{
     cursor: pointer;
@@ -404,23 +394,21 @@ visibility: visible;
     visibility: visible;
 }
 .sercon{
-    display: block;
+    max-width: 150px;
     position: relative;
-    margin-left: 9em;
     text-align: center;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
-    padding: .25em;
     border-radius: .5em;
     align-items: center;
 }
 .sercon img{
-    margin-bottom: ;
+    margin-top: .5rem;
 }
 .sercon p{
-    padding-top: 1.3em;
-    padding-left: .3em;
-    padding-right: .3em;
+    padding-top: 1.rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 .sercon:hover{
     cursor: pointer;
@@ -443,8 +431,6 @@ visibility: visible;
     visibility: visible;
 }
 .sersoc{
-    margin-left: 9em;
-    display: inline-block;
     position: relative;
     padding: .1em;
     background-color: white;
@@ -480,11 +466,13 @@ visibility: visible;
 }
 .serow2{
     display: flex;
+    justify-content: space-around;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 650;
     font-size: .9em;
     color: cornflowerblue;
-    width: 45rem;
+    width: 98%;
+    max-width: 710px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5em;
@@ -492,9 +480,7 @@ visibility: visible;
 
 
 .serblog{
-    display:inline-block;
     position: relative;
-    margin-left: 10em;
     text-align: center;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
@@ -539,6 +525,9 @@ visibility: visible;
     border-radius: 3em;
     cursor: pointer;
 }
+.gotop img{
+    width: 3em;
+}
 .gotop a{
     padding: .3em;
 }
@@ -546,8 +535,6 @@ visibility: visible;
     padding: .1em;
 }
 .serpost{
-    margin-left: 9.3em;
-    display: inline-block;
     position: relative;
     padding-top: .2em;
     padding-left: 0;
@@ -583,5 +570,32 @@ visibility: visible;
 .serpost:hover::before{
     visibility: visible;
 }
+media all and (max-width: 800px){
+    .bar{
+        width: 45em;   
+    }
+    .navi{
+        width: 45em;
+    }
+    .webimg{
+        background-color: blue;
 
+
+    }
+    .webimg img{
+        height: 70vh;
+        width: 100%;
+        
+       
+    }
+
+}
+media all and (max-width: 430px){
+    .bar{
+        width: 45.7em;   
+    }
+    .navi{
+        width: 45.0245em;
+    }
+}
 
