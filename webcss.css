@@ -614,7 +614,7 @@ whovrtext::before
 }
 @media all and (max-width: 800px){
     .full{
-        background-size: 80%;
+        background-size: 200%;
     }
     .aboutimg{
         display: flex;
