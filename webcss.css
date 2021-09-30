@@ -2,9 +2,9 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-image: url(images/background.jpg);
-    background-repeat:repeat;
-    background-size:85%;
+    background-image: url(images/—Pngtree—background\ pattern\ with\ icon\ symbol_1154242.png);
+    background-repeat:;
+    background-size:100%;
 
 }
 html{
@@ -197,8 +197,7 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-
-background-size: 50%;
+backdrop-filter: blur(.2em);
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
 transition: 100ms;
@@ -225,9 +224,9 @@ transition: 100ms;
 }
 .about
 {
-    color: rgb(196, 52, 165);
-    font-weight: 600;
-    font-family: cursive;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,8 +282,7 @@ aboutimg::before{
 .whovr{
     display: flex;
     position: relative;
-  
-    background-size: 50%;
+    backdrop-filter: blur(.2em);
     text-align: center;  
     width: 98%;
     max-width: 720px;
@@ -329,10 +327,10 @@ whovr::before{
     display: flex;
     position: relative;
     align-items: center;
-    color: rgb(57, 100, 192);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     text-align: right;
-    font-weight: 600;
-    font-family: cursive;
 }
 .whovrtext p{
     margin-top: 4em;
