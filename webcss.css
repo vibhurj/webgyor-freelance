@@ -621,6 +621,9 @@ whovrtext::before
     height: 1%;
     background-color: rgb(243, 135, 220);
 }
+.about p{
+    font-size: 1.1em;
+}
     .violethead{
         display: flex;
         position: absolute;
@@ -640,6 +643,9 @@ whovrtext::before
         display: flex;
         position: relative;
         flex-direction: column-reverse;
+    }
+    .whovrtext p{
+        font-size: 1.1em;
     }
     .whovrtext::after
 {
