@@ -622,7 +622,7 @@ whovrtext::before
     background-color: rgb(243, 135, 220);
 }
 .about p{
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
     .violethead{
         display: flex;
