@@ -225,11 +225,9 @@ transition: 100ms;
 }
 .about
 {
-    margin: 3%;
     color: rgb(196, 52, 165);
     font-weight: 500;
     font-family: cursive;
-
     display: flex;
     align-items: center;
     text-align:right;
@@ -238,19 +236,9 @@ transition: 100ms;
 .about p{
     margin-top: 2.5em;
     padding-right: .7em;
-    padding: auto;    
-}
-about::before
-{
-    content: '';
-    position: absolute;
-    right: 0;
-    margin-top: 1.9em;
-    margin-right: -0.04em;
-    width:.1em;
-    height: 83%;
-    background-color: rgb(243, 135, 220);
-    filter: blur(.2em);
+    padding: auto;  
+    margin-left: 1em;
+    margin-right: 1em;  
 }
 .about::after
 {
@@ -339,8 +327,6 @@ whovr::before{
     display: flex;
     position: relative;
     align-items: center;
-    margin-right: .5em;
-    margin-left: 1.7em;
     color: rgb(57, 100, 192);
     text-align: right;
     font-weight: 500;
@@ -349,7 +335,8 @@ whovr::before{
 .whovrtext p{
     margin-top: 4em;
     margin-bottom: 2.7em;
-    padding-right: .7em;
+    margin-left: 1em;
+    margin-right: 1em; 
 }
 whovrtext::before
 {
@@ -391,7 +378,7 @@ whovrtext::before
     padding-left: 0;
     border-radius: .4em;
     height: 100%;
-    max-height: 100px;
+    max-height: 110px;
     
 
 
@@ -617,6 +604,65 @@ whovrtext::before
     box-shadow: #00b7ff 0px 0px 5px 3px;
 }
 @media all and (max-width: 800px){
+    .aboutimg{
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+    .about::after
+{
+    top: 0;
+    margin-top: 1em;
+    content: '';
+    position: absolute;
+    width:90%;
+    height: 1%;
+    background-color: rgb(243, 135, 220);
+}
+    .violethead{
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+        
+    }
+    .img1{
+        align-self: center;
+        margin-top: 5em;
+    }
+    .about{
+        text-align: center;
+        justify-content: center;
+    }
+    .whovr{
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+    .whovrtext::after
+{
+    top: 0;
+    margin-top: 1em;
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1%;
+    background-color: rgb(102, 147, 245);
+}
+    .bluehead{
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;   
+    }
+    .whovrimg{
+        align-self: center;
+        margin-top: 5em;
+    }
+    .whovrtext{
+        text-align: center;
+        justify-content: center;
+    }
 
     .serow1{
         flex-direction: column;
