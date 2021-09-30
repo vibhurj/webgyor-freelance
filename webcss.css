@@ -2,7 +2,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-image: url(images/—Pngtree—background\ pattern\ with\ icon\ symbol_1154242.png);
+    background-image: url(images/back.jpg);
     background-repeat:;
     background-size:100%;
 
@@ -620,7 +620,7 @@ whovrtext::before
     background-color: rgb(243, 135, 220);
 }
 .about p{
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
     .violethead{
         display: flex;
@@ -643,7 +643,7 @@ whovrtext::before
         flex-direction: column-reverse;
     }
     .whovrtext p{
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     .whovrtext::after
 {
