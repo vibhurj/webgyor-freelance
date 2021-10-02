@@ -536,8 +536,9 @@ serblog::before{
     width: 1.9em;
     -webkit-user-select: none;
 }
-.gotop a{
+.gotop a:active{
     -webkit-user-select: none;
+    background-color: #0000ff00;
 }
 .gotop:hover{
     background-color: rgba(125, 126, 126, 0.973);
@@ -545,7 +546,6 @@ serblog::before{
 }
 .gotop:active{
     -webkit-user-select: none;
-    background-color: #ffffff00;
 }
 .serpost{
     position: relative;
