@@ -6,7 +6,7 @@ body{
 .full{
     width: 100%;
     height: 100%;
-    background-image: url(images/back.jpg);
+    background-image: url(images/—Pngtree—background\ pattern\ with\ icon\ symbol_1154242.jpg);
     background-size:  100%;
     position: fixed;
     z-index: -1;
@@ -100,8 +100,6 @@ a{
     padding-right: .6em;
     position: relative;
     color: rgb(127, 127, 128);
-    //background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(22, 22, 22), rgb(31, 31, 31));
-    //box-shadow: rgb(15, 15, 15) 0px 9px 5px -6px;
 }
 .hmimg{
     display: flex;
@@ -137,15 +135,15 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: rgba(0, 0, 0, 0.055);
+    background-color: #00c3ff2a;
     backdrop-filter: blur(.2em);
 }
 .webimg::before{
 content: "";
 position: absolute;
-background: conic-gradient( #fa339d9c, #3db8f18a, #f8a03491, #36f75683, #f1383881);
-width: 96%;
-height: 96%;
+background: conic-gradient( #fa339dc0, #3db8f1b0, #f8a034be, #36f756b6, #f13838c2);
+width: 97%;
+height: 97%;
 top: .6em;
 border-radius: .7em;
 filter: blur(.4em);
@@ -203,8 +201,8 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background:linear-gradient(to right, rgba(0, 140, 255, 0.075),rgba(0, 255, 0, 0.075), rgba(255, 0, 242, 0.075));
-backdrop-filter: blur(.2em);
+background-color: #00c3ff2a;
+backdrop-filter: blur(.3em);
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
 transition: 100ms;
@@ -257,18 +255,7 @@ transition: 100ms;
     height: 83%;
     background-color: rgb(243, 135, 220);
 }
-aboutimg::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.4em);
-}
+
 .img1
 {
     width: 80%;
@@ -281,7 +268,6 @@ aboutimg::before{
 {
     margin-right: 4%;
     border-radius: .4rem;
-    //box-shadow: rgba(0, 0, 0, 0.199) 5px 5px 5px;
     width: 100%;
     max-width: 150px;
     min-width: 100px;
@@ -290,7 +276,7 @@ aboutimg::before{
 .whovr{
     display: flex;
     position: relative;
-    background:linear-gradient(to right, rgba(0, 140, 255, 0.075),rgba(0, 255, 0, 0.075), rgba(255, 0, 242, 0.075));
+    background-color: #00c3ff2a;
     backdrop-filter: blur(.3em);
     text-align: center;  
     width: 98%;
@@ -300,18 +286,6 @@ aboutimg::before{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-}
-whovr::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.4em);
 }
 .bluehead{
     display: flex;
@@ -347,18 +321,6 @@ whovr::before{
     margin-bottom: 2.7em;
     margin-left: 1em;
     margin-right: 1.5em; 
-}
-whovrtext::before
-{
-    content: '';
-    position: absolute;
-    right:0;
-    margin-top: 1.4em;
-    width: .1em;
-    margin-right: -.04em;
-    height: 70%;
-    background-color: rgb(80, 132, 245);
-    filter: blur(.2em);
 }
 .whovrtext::after
 {
@@ -405,19 +367,16 @@ whovrtext::before
     color:rgb(238, 140, 75);
     font-size: 1.5em;
     letter-spacing: .5em;
-    font-;
-    //font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    //text-shadow: rgba(0, 0, 0, 0.219) 3px 1px 3px;
 }
 .section2{
     width: 100%;
 }
 .serow1{
     display: flex;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 650;
-    font-size: .9em;
-    color: cornflowerblue;
+    font-weight: 800;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: .8em;
+    color: rgb(0, 0, 0);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -428,16 +387,16 @@ whovrtext::before
 .serweb{
     position: relative;
     padding: .2em;
-    background-color: rgb(255, 255, 255);
+    background-color: #00c3ff2a;
+    backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     text-align: center;
     border-radius: .5em;
 }
 .serweb:hover{
-    cursor: pointer;
-    box-shadow: #00b7ff 0px 0px 5px 3px;
+    background-color: #00c3ff59;
 }
-.serweb::before{
+serweb::before{
     content: '';
     background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
     position: absolute;
@@ -454,7 +413,8 @@ whovrtext::before
 .sercon{
     position: relative;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #00c3ff2a;
+    backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     align-items: center;
@@ -468,10 +428,9 @@ whovrtext::before
     padding-right: 3rem;
 }
 .sercon:hover{
-    cursor: pointer;
-    box-shadow: #00b7ff 0px 0px 5px 3px;
+    background-color: #00c3ff59;
 }
-.sercon::before{
+sercon::before{
     content: '';
     background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
     position: absolute;
@@ -487,7 +446,8 @@ whovrtext::before
 .sersoc{
     position: relative;
     padding: .1em;
-    background-color: white;
+    background-color: #00c3ff2a;
+    backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
@@ -499,10 +459,9 @@ whovrtext::before
 
 }
 .sersoc:hover{
-    cursor: pointer;
-    box-shadow: #00b7ff 0px 0px 5px 3px;
+    background-color: #00c3ff59;
 }
-.sersoc::before{
+sersoc::before{
     content: '';
     background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
     position: absolute;
@@ -518,10 +477,10 @@ whovrtext::before
 .serow2{
     display: flex;
     justify-content: space-around;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 650;
-    font-size: .9em;
-    color: cornflowerblue;
+    font-weight: 800;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: .8em;
+    color: rgb(0, 0, 0);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -533,7 +492,8 @@ whovrtext::before
 .serblog{
     position: relative;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #00c3ff2a;
+    backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     padding-top:  .25em;
     padding-left: .6em;
@@ -546,10 +506,9 @@ whovrtext::before
     margin-right: 2.4em;
 }
 .serblog:hover{
-    cursor: pointer;
-    box-shadow: #00b7ff 0px 0px 5px 3px;
+    background-color: #00c3ff59;
 }
-.serblog::before{
+serblog::before{
     content: '';
     background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
     position: absolute;
@@ -576,7 +535,7 @@ whovrtext::before
     width: 1.9em;
 }
 .gotop a{
-    padding:
+    user-select: none;
 }
 .gotop:hover{
     background-color: rgba(125, 126, 126, 0.973);}
@@ -585,7 +544,8 @@ whovrtext::before
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-    background-color: white;
+    background-color: #00c3ff2a;
+    backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
@@ -595,7 +555,7 @@ whovrtext::before
     margin-left: 2.4em;
     margin-right: 2.4em;
 }
-.serpost::before{
+serpost::before{
     content: '';
     background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
     position: absolute;
@@ -609,12 +569,11 @@ whovrtext::before
 
 }
 .serpost:hover{
-    cursor: pointer;
-    box-shadow: #00b7ff 0px 0px 5px 3px;
+    background-color: #00c3ff59;
 }
 @media all and (max-width: 800px){
     .full{
-        background-size: 200%;
+        background-size: 250%;
     }
     .aboutimg{
         display: flex;
@@ -715,12 +674,4 @@ whovrtext::before
         margin-bottom: 5%;
     }
     }
-media all and (max-width: 430px){
-    .bar{
-        width: 45.7em;   
-    }
-    .navi{
-        width: 45.0245em;
-    }
-}
 
