@@ -14,6 +14,34 @@ body{
 html{
     scroll-behavior: smooth;
 }
+a{
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    border: none;
+    background-color: #0000ff00;
+}
+a:active{
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    border: none;
+    background-color: #0000ff00;
+}
+img{
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    border: none;
+    background-color: #0000ff00;
+}
+img:active{
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    border: none;
+    background-color: #0000ff00;
+}
 .bar{
     display:inline-block;
     width: 100%;
@@ -530,22 +558,13 @@ serblog::before{
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
-    -webkit-user-select: none;
 }
 .gotop img{
     width: 1.9em;
-    -webkit-user-select: none;
-}
-.gotop a:active{
-    -webkit-user-select: none;
-    background-color: #0000ff00;
+    background-color: #0000ff;
 }
 .gotop:hover{
     background-color: rgba(125, 126, 126, 0.973);
-    -webkit-user-select: none;
-}
-.gotop:active{
-    -webkit-user-select: none;
 }
 .serpost{
     position: relative;
