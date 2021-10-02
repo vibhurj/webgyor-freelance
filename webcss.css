@@ -543,9 +543,9 @@ serblog::before{
     background-color: rgba(125, 126, 126, 0.973);
     user-select: none;
 }
-.gotop a:hover
-{
+.gotop:active{
     user-select: none;
+    background-color: #ffffff00;
 }
 .serpost{
     position: relative;
