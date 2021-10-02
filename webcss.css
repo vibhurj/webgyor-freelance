@@ -530,6 +530,7 @@ serblog::before{
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
+    user-select: none;
 }
 .gotop img{
     width: 1.9em;
