@@ -533,12 +533,15 @@ serblog::before{
 }
 .gotop img{
     width: 1.9em;
+    user-select: none;
 }
 .gotop a{
     user-select: none;
 }
 .gotop:hover{
-    background-color: rgba(125, 126, 126, 0.973);}
+    background-color: rgba(125, 126, 126, 0.973);
+    user-select: none;
+}
 .serpost{
     position: relative;
     padding-top: .2em;
