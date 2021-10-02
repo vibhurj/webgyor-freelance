@@ -530,21 +530,21 @@ serblog::before{
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
-    user-select: none;
+    -webkit-user-select: none;
 }
 .gotop img{
     width: 1.9em;
-    user-select: none;
+    -webkit-user-select: none;
 }
 .gotop a{
-    user-select: none;
+    -webkit-user-select: none;
 }
 .gotop:hover{
     background-color: rgba(125, 126, 126, 0.973);
-    user-select: none;
+    -webkit-user-select: none;
 }
 .gotop:active{
-    user-select: none;
+    -webkit-user-select: none;
     background-color: #ffffff00;
 }
 .serpost{
