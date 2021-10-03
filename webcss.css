@@ -45,7 +45,7 @@ img:active{
 .bar{
     display:inline-block;
     width: 100%;
-    height: 7vh;
+    height: 2.5rem;
     background-color: rgb(0, 0, 0);
     opacity: 85%;
     text-align: center;
@@ -58,20 +58,13 @@ img:active{
     height: 100%;;
 
 }
-.lognav{
-    padding-top: 50px;
-    display:flex;
-    position: relative;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 20px;
-
-    }
 .navi{
-    display: flex;
+        display: flex;
         height: 5em;
         position: relative;
-        box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 20px;
+        background-color: #00c3ff52;
+        backdrop-filter: blur(.1em);
+        box-shadow: rgba(0, 0, 0, 0.308) 0px 3px 20px;
         justify-content:center;
         width: 100%;
 
@@ -82,6 +75,7 @@ img:active{
     }
 .navi li{
     margin-top: 5%;
+    margin-left: 1em;
 }
 .navi ul{
     margin: 0%;
@@ -95,11 +89,12 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background: rgb(34, 74, 161);
+    background-color: #28a0c57e;
+    backdrop-filter: blur(.4em);
     border-radius: 5em;
-    box-shadow: rgb(17, 17, 17) 0px 6px 7px -3px;
+    box-shadow: rgba(17, 17, 17, 0.521) 0px 6px 7px -3px;
 }
-span.topbtn::before{
+.span.topbtn::before{
     content: '';
     background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
     position: absolute;
@@ -115,8 +110,8 @@ span.topbtn::before{
 span.topbtn a{
     display: flex;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .7em;
-    font-weight: 500;
+    font-size: .73em;
+    font-weight: 600;
     margin-left:;
 
 }
@@ -127,7 +122,8 @@ a{
     padding-left: .6em;
     padding-right: .6em;
     position: relative;
-    color: rgb(127, 127, 128);
+    color: rgb(0, 0, 0);
+    
 }
 .hmimg{
     display: flex;
@@ -137,7 +133,8 @@ a{
 }
 
 span.topbtn:hover{
-    box-shadow:black 0px 0px 0px 0px ;
+    background-color: #0682a893;
+    backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
     visibility: visible;
@@ -151,8 +148,6 @@ span.topbtn:hover::before,span:focus::before{
 text-align: center;
 justify-content: center;
 align-items: center;
-
-
 }
 .webimg{
     display:inline-flex;
@@ -392,7 +387,7 @@ transition: 100ms;
 }
 
 .services h2{
-    color:rgb(238, 140, 75);
+    color:rgb(24, 143, 212);
     font-size: 1.5em;
     letter-spacing: .5em;
 }
@@ -401,9 +396,9 @@ transition: 100ms;
 }
 .serow1{
     display: flex;
-    font-weight: 800;
+    font-weight: 900;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: .8em;
+    font-size: .9em;
     color: rgb(0, 0, 0);
     width: 98%;
     max-width: 710px;
@@ -421,6 +416,10 @@ transition: 100ms;
     text-align: center;
     border-radius: .5em;
 }
+.serweb img{
+    margin-top: .9rem;
+    margin-bottom: .9em;
+}
 .serweb:hover{
     background-color: #00c3ff59;
 }
@@ -435,7 +434,6 @@ serweb::before{
     right: 0.1em;
     border-radius: .2em;
     filter: blur(.3em);
-
 }
 
 .sercon{
@@ -448,7 +446,8 @@ serweb::before{
     align-items: center;
 }
 .sercon img{
-    margin-top: .5rem;
+    margin-top: .9rem;
+    margin-bottom: .9em;
 }
 .sercon p{
     padding-top: 1.rem;
@@ -505,9 +504,9 @@ sersoc::before{
 .serow2{
     display: flex;
     justify-content: space-around;
-    font-weight: 800;
+    font-weight: 900;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: .8em;
+    font-size: .9em;
     color: rgb(0, 0, 0);
     width: 98%;
     max-width: 710px;
@@ -554,17 +553,17 @@ serblog::before{
     position: fixed;
     right: 1em;
     bottom: 1em;
-    background-color: rgba(140, 141, 141, 0.973);
+    background-color: #1c7d9b8f;
+backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
 }
 .gotop img{
     width: 1.9em;
-    background-color: #0000ff;
 }
 .gotop:hover{
-    background-color: rgba(125, 126, 126, 0.973);
+    background-color: #0d718fb0;
 }
 .serpost{
     position: relative;
@@ -602,10 +601,14 @@ serpost::before{
     .full{
         background-size: 250%;
     }
+    .bar{
+        max-height: 35px;
+    }
     .aboutimg{
         display: flex;
         position: relative;
         flex-direction: column-reverse;
+        width: 95%;
     }
     .about::after
 {
@@ -618,7 +621,7 @@ serpost::before{
     background-color: rgb(243, 135, 220);
 }
 .about p{
-    font-size: 1.1em;
+    font-size: .93em;
 }
     .violethead{
         display: flex;
@@ -639,9 +642,10 @@ serpost::before{
         display: flex;
         position: relative;
         flex-direction: column-reverse;
+        width: 95%;
     }
     .whovrtext p{
-        font-size: 1.1em;
+        font-size: .95em;
     }
     .whovrtext::after
 {
