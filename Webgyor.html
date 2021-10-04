@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="webcss.css">
 </head>
 <body>
+    <div id="pageloader">
+        <img src="images/pageloader.gif" alt="">
+    </div>
     <div class="full"></div>
         <div class="bar">
             <img class="gif" src="images/My-Video1.gif" alt="">
@@ -106,4 +109,10 @@
     <footer >
 
     </footer>
+    <script>
+        var loader=document.getElementById("pageloader");
+        window.addEventListener("load",function(){
+            loader.style.display="none"
+        })
+    </script>
 </body>

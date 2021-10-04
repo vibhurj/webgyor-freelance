@@ -67,7 +67,6 @@ img:active{
         box-shadow: rgba(0, 0, 0, 0.308) 0px 3px 20px;
         justify-content:center;
         width: 100%;
-
     }
     .navi img{
         max-width: 15px;
@@ -83,7 +82,6 @@ img:active{
     list-style: none;
     display: flex;
     justify-content: space-around;
-
 }
 span.topbtn{
     display:flex;
@@ -113,7 +111,6 @@ span.topbtn a{
     font-size: .73em;
     font-weight: 600;
     margin-left:;
-
 }
 a{
     display: flex;
@@ -122,8 +119,7 @@ a{
     padding-left: .6em;
     padding-right: .6em;
     position: relative;
-    color: rgb(0, 0, 0);
-    
+    color: rgb(0, 0, 0);    
 }
 .hmimg{
     display: flex;
@@ -241,8 +237,6 @@ transition: 100ms;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: .5em;
-
-
 }
 .aboutimg h4{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -294,7 +288,6 @@ transition: 100ms;
     width: 100%;
     max-width: 150px;
     min-width: 100px;
-
 }
 .whovr{
     display: flex;
@@ -374,9 +367,6 @@ transition: 100ms;
     border-radius: .4em;
     height: 100%;
     max-height: 95px;
-    
-
-
 }
 .services{
     display: flex;
@@ -423,18 +413,6 @@ transition: 100ms;
 .serweb:hover{
     background-color: #00c3ff59;
 }
-serweb::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.3em);
-}
 
 .sercon{
     position: relative;
@@ -457,19 +435,6 @@ serweb::before{
 .sercon:hover{
     background-color: #00c3ff59;
 }
-sercon::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.3em);
-
-}
 .sersoc{
     position: relative;
     padding: .1em;
@@ -488,19 +453,6 @@ sercon::before{
 .sersoc:hover{
     background-color: #00c3ff59;
 }
-sersoc::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.3em);
-
-}
 .serow2{
     display: flex;
     justify-content: space-around;
@@ -514,8 +466,6 @@ sersoc::before{
     margin-right: auto;
     margin-top: 5em;
 }
-
-
 .serblog{
     position: relative;
     text-align: center;
@@ -535,26 +485,13 @@ sersoc::before{
 .serblog:hover{
     background-color: #00c3ff59;
 }
-serblog::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.3em);
-
-}
 .gotop{
     display:inline-block;
     position: fixed;
     right: 1em;
     bottom: 1em;
     background-color: #1c7d9b8f;
-backdrop-filter: blur(.3em);
+    backdrop-filter: blur(.3em);
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
@@ -581,19 +518,6 @@ backdrop-filter: blur(.3em);
     margin-left: 2.4em;
     margin-right: 2.4em;
 }
-serpost::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 0.1em;
-    bottom: 0.1em;
-    left: 0.1em;
-    right: 0.1em;
-    border-radius: .2em;
-    filter: blur(.3em);
-
-}
 .serpost:hover{
     background-color: #00c3ff59;
 }
@@ -603,6 +527,9 @@ serpost::before{
     }
     .bar{
         max-height: 35px;
+    }
+    .navi{
+       display: none;
     }
     .aboutimg{
         display: flex;
@@ -704,5 +631,18 @@ serpost::before{
         margin-right: 10%;
         margin-bottom: 5%;
     }
+    }
+    #pageloader{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: #ffffff;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+    }
+    #pageloader img{
+        width: 20%;
     }
 
