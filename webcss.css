@@ -155,53 +155,7 @@ align-items: center;
     padding: .6em;
     border-radius: .7em;
     background-color: #00c3ff2a;
-    backdrop-filter: blur(.2em);
-}
-.webimg::before{
-content: "";
-position: absolute;
-background: conic-gradient( #fa339dc0, #3db8f1b0, #f8a034be, #36f756b6, #f13838c2);
-width: 97%;
-height: 97%;
-top: .6em;
-border-radius: .7em;
-filter: blur(.4em);
-animation: spin 1s infinite ease-in-out alternate;
-}
-@keyframes spin{
-    0%{
-        background-position: -110px;
-    }
-    10%{
-        background-position: -180px;
-    }
-    20%{
-        background-position: -210px;
-    }
-    30%{
-        background-position: -250px;
-    }
-    40%{
-        background-position: -280px;
-    }
-    50%{
-        background-position: -310px;
-    }
-    60%{
-        background-position: -340px;
-    }
-    70%{
-        background-position: -360px;
-    }
-    80%{
-        background-position: -370px;
-    }
-    90%{
-        background-position: -380px;
-    }
-    100%{
-        background-position: -390px;
-    }
+    backdrop-filter: blur(.3em);
 }
 .webimg img{
     display: flex;
