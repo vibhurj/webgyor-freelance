@@ -635,6 +635,10 @@ transition: 100ms;
         margin-right: 10%;
         margin-bottom: 5%;
     }
+    #pageloader img{
+        width: 130px;
+    }
+
     }
     #pageloader{
         display: flex;
@@ -647,6 +651,6 @@ transition: 100ms;
         justify-content: center;
     }
     #pageloader img{
-        width: 20%;
+        width: 250px;
     }
 
