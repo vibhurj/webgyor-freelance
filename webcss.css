@@ -62,7 +62,7 @@ img:active{
         display: flex;
         height: 5em;
         position: relative;
-        background-color: #00c3ff52;
+        background-color: #00c3ff1c;
         backdrop-filter: blur(.1em);
         box-shadow: rgba(0, 0, 0, 0.308) 0px 3px 20px;
         justify-content:center;
@@ -87,7 +87,7 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #28a0c57e;
+    background-color: #28a0c51c;
     backdrop-filter: blur(.4em);
     border-radius: 5em;
     box-shadow: rgba(17, 17, 17, 0.521) 0px 6px 7px -3px;
@@ -119,7 +119,7 @@ a{
     padding-left: .6em;
     padding-right: .6em;
     position: relative;
-    color: rgb(0, 0, 0);    
+    color: rgb(255, 255, 255);    
 }
 .hmimg{
     display: flex;
@@ -129,7 +129,7 @@ a{
 }
 
 span.topbtn:hover{
-    background-color: #0682a893;
+    background-color: #0682a800;
     backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
@@ -411,7 +411,7 @@ transition: 100ms;
     margin-bottom: .9em;
 }
 .serweb:hover{
-    background-color: #00c3ff59;
+    background-color: #00c3ff17;
 }
 
 .sercon{
@@ -433,7 +433,7 @@ transition: 100ms;
     padding-right: 3rem;
 }
 .sercon:hover{
-    background-color: #00c3ff59;
+    background-color: #00c3ff17;
 }
 .sersoc{
     position: relative;
@@ -451,7 +451,7 @@ transition: 100ms;
 
 }
 .sersoc:hover{
-    background-color: #00c3ff59;
+    background-color: #00c3ff17;
 }
 .serow2{
     display: flex;
@@ -483,7 +483,7 @@ transition: 100ms;
     margin-right: 2.4em;
 }
 .serblog:hover{
-    background-color: #00c3ff59;
+    background-color: #00c3ff17;
 }
 .gotop{
     display:inline-block;
@@ -523,7 +523,7 @@ transition: 100ms;
     margin-right: 2.4em;
 }
 .serpost:hover{
-    background-color: #00c3ff59;
+    background-color: #00c3ff17;
 }
 @media all and (max-width: 800px){
     .full{
