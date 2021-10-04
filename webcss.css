@@ -496,6 +496,10 @@ transition: 100ms;
     border-radius: 5em;
     cursor: pointer;
 }
+.gotop button{
+    border: none;
+    outline: none;
+}
 .gotop img{
     width: 1.9em;
 }
