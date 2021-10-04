@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="pageloader">
-        <img src="images/pageloader.gif" alt="">
+        <img src="images/loader.gif" alt="">
     </div>
     <div class="full"></div>
         <div class="bar">
@@ -103,7 +103,7 @@
         </section>
 
      <div class="gotop">
-         <button class="gotop"><img src="images/gotop.gif" alt=""></button>
+         <button id="totop" class="gotop"><img src="images/gotop.gif" alt=""></button>
          
      </div>
     <footer >
@@ -114,5 +114,19 @@
         window.addEventListener("load",function(){
             loader.style.display="none"
         })
+        document.getElementById("totop").addEventListener("click",function(){
+            window.addEventListener("click",function()
+            {
+                window.scrollTo(
+                    {
+                        top:0,
+                        left:0,
+                        behavior:"smooth"
+                    }
+                )
+            })
+        })
+        
+        
     </script>
 </body>
