@@ -5,7 +5,7 @@ body{
 }
 .full{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url(images/background/top-view-geometrical-forms-with-copy-space.jpg);
     background-size: 100%;
     position: fixed;
@@ -623,49 +623,57 @@ backdrop-filter: blur(1em);
         font-weight: 500;
     }
 }
-footer
-{
-    margin-top: 20px;
-}
 .bottom{
     display: flex;
     width: 100%;
-    height: 15vh;
     background-color: #13556941;
     backdrop-filter: blur(.5em);
+    margin-bottom: -1.999em;
 }
-.bottomleft{
-    width: 25%;
-    height: 100%;  
+.gmail{
+    margin-left: 1em;
 }
+.bottomleft ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: -2em;
+    margin-left: -2em;
+}
+.bottomleft img{
+    width: 1.8em;
 
+}
 .bottomleft a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(202, 200, 200);
     justify-content: center;
     margin-top: 6vh;
 }
-
-.bottommiddle{
-    width: 45%;
-    height: 100%;
-}
-.bottommiddle ul{
+.bottomright ul{
     display: flex;
     margin-left: -2em;
     margin-top: 4vh;
     justify-content: space-around;
     list-style: none;
 }
-.bottommiddle img{
+.bottomright img{
     width: 2.3vw;
     min-width: 1.2em;
     max-width: 2vw ;
 }
-.bottomright{
-    width: 20%;
-    height: 100%;
+.team{
+    background-color: #0d485a2d;
+    backdrop-filter: blur(.5em);
+    font-size: .8em;
+    text-align: center;
+    font-family: cursive;
+    color: #00000052;
+    font-weight: 500;
+    margin-bottom: -1em;
+    
 }
+
     #pageloader img{
         width: 130px;
     }
