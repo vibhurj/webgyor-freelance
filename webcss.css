@@ -6,7 +6,7 @@ body{
 .full{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background/SL_043021_42650_12.jpg);
+    background-image: url(images/background/top-view-geometrical-forms-with-copy-space.jpg);
     background-size: 100%;
     position: fixed;
     z-index: -1;
@@ -21,13 +21,7 @@ a{
     border: none;
     background-color: #0000ff00;
 }
-a:active{
-    user-select: none;
-    -webkit-user-select: none;
-    outline: none;
-    border: none;
-    background-color: #0000ff00;
-}
+
 img{
     user-select: none;
     -webkit-user-select: none;
@@ -35,15 +29,10 @@ img{
     border: none;
     background-color: #0000ff00;
 }
-img:active{
-    user-select: none;
-    -webkit-user-select: none;
-    outline: none;
-    border: none;
-    background-color: #0000ff00;
-}
+
 .bar{
-    display:inline-block;
+    display:inline-flex;
+    justify-content: center;
     width: 100%;
     height: 2.5rem;
     background-color: rgb(0, 0, 0);
@@ -58,19 +47,29 @@ img:active{
     height: 100%;;
 
 }
+.navbutton{
+    display: none;
+    position: absolute;
+    right: .5em;
+    top:-.1em
+}
+.navbutton img{
+    width: 2em;
+    opacity:80% ;
+}
 .navi{
         display: flex;
-        height: 5em;
         position: relative;
         background-color: #00c3ff1c;
-        backdrop-filter: blur(.1em);
+        backdrop-filter: blur(1em);
         box-shadow: rgba(0, 0, 0, 0.308) 0px 3px 20px;
         justify-content:center;
         width: 100%;
     }
     .navi img{
-        max-width: 15px;
-        max-height: 15px;
+        max-width: 35px;
+        max-height: 25px;
+        
     }
 .navi li{
     margin-top: 5%;
@@ -87,10 +86,13 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #28a0c51c;
+    background-color: #0b485a86;
     backdrop-filter: blur(.4em);
     border-radius: 5em;
+    margin-bottom: 1em;
     box-shadow: rgba(17, 17, 17, 0.521) 0px 6px 7px -3px;
+    align-items: center;
+    padding: .2em;
 }
 .span.topbtn::before{
     content: '';
@@ -108,9 +110,8 @@ span.topbtn{
 span.topbtn a{
     display: flex;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .73em;
-    font-weight: 600;
-    margin-left:;
+    font-size: .82em;
+    font-weight: 700;
 }
 a{
     display: flex;
@@ -129,15 +130,15 @@ a{
 }
 
 span.topbtn:hover{
-    background-color: #0682a800;
+    background-color: #0d87acb0;
     backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
     visibility: visible;
 }
 .aboutico{
-   margin-top: .3em;
    margin-left: .5em;
+   margin-right: .4em;
 }
 .section1{
     width: 100%;
@@ -154,8 +155,8 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.3em);
+    background-color: #08354296;
+    backdrop-filter: blur(.7em);
 }
 .webimg img{
     display: flex;
@@ -174,8 +175,8 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background-color: #00c3ff2a;
-backdrop-filter: blur(.5em);
+background-color: #08354296;
+backdrop-filter: blur(.7em);
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
 transition: 100ms;
@@ -210,6 +211,7 @@ transition: 100ms;
     position: relative;
 }
 .about p{
+    text-shadow: #0000008e 1px 1px;
     margin-top: 4em;
     margin-bottom: 3em;
     padding-right: .7em;
@@ -246,8 +248,8 @@ transition: 100ms;
 .whovr{
     display: flex;
     position: relative;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.5em);
+    background-color: #08354296;
+backdrop-filter: blur(.7em);
     text-align: center;  
     width: 98%;
     max-width: 720px;
@@ -287,6 +289,7 @@ transition: 100ms;
     text-align: right;
 }
 .whovrtext p{
+    text-shadow: #0000008e 1px 1px;
     margin-top: 4em;
     margin-bottom: 2.7em;
     margin-left: 1em;
@@ -343,6 +346,7 @@ transition: 100ms;
     font-weight: 900;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
+    text-shadow: #00000057 1px 1px;
     color: rgb(255, 255, 255);
     width: 98%;
     max-width: 710px;
@@ -354,11 +358,11 @@ transition: 100ms;
 .serweb{
     position: relative;
     padding: .2em;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.5em);
+    background-color: #08354296;
+    backdrop-filter: blur(.7em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     text-align: center;
-    border-radius: .5em;
+    border-radius: .5em
 }
 .serweb img{
     margin-top: .9rem;
@@ -371,8 +375,8 @@ transition: 100ms;
 .sercon{
     position: relative;
     text-align: center;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.5em);
+    background-color: #08354296;
+    backdrop-filter: blur(.7em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     align-items: center;
@@ -392,8 +396,8 @@ transition: 100ms;
 .sersoc{
     position: relative;
     padding: .1em;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.5em);
+    background-color: #08354296;
+backdrop-filter: blur(.7em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
@@ -414,6 +418,7 @@ transition: 100ms;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     color: rgb(255, 255, 255);
+    text-shadow: #00000057 1px 1px;
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -423,8 +428,8 @@ transition: 100ms;
 .serblog{
     position: relative;
     text-align: center;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.5em);
+    background-color: #08354296;
+backdrop-filter: blur(.7em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     padding-top:  .25em;
     padding-left: .6em;
@@ -442,10 +447,10 @@ transition: 100ms;
 .gotop{
     display:inline-block;
     position: fixed;
-    right: 1em;
-    bottom: 1em;
-    background-color: #1c7d9b8f;
-    backdrop-filter: blur(.3em);
+    right: .5em;
+    bottom: 4em;
+    background-color: #08354296;
+    backdrop-filter: blur(.7em);
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
@@ -465,8 +470,8 @@ transition: 100ms;
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-    background-color: #00c3ff2a;
-    backdrop-filter: blur(.5em);
+    background-color: #08354296;
+backdrop-filter: blur(.7em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
@@ -481,14 +486,32 @@ transition: 100ms;
 }
 @media all and (max-width: 800px){
     .full{
-        background-image: url(images/background/SL_043021_42650_122.jpg);
-        background-size: 100%;
+        background-image: url(images/background/top-view-geometrical-forms-with-copy-space2.jpg);
+        background-size: 150%;
     }
     .bar{
         max-height: 35px;
     }
     .navi{
-       display: none;
+        display: none;
+    }
+    .navbutton{
+        display: flex;
+    }
+    .navi ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .navi.active{
+        display: flex;
+    }
+    span.topbtn a{
+        display: flex;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: .49em;
+        font-weight: 700;
     }
     .aboutimg{
         display: flex;
@@ -590,10 +613,56 @@ transition: 100ms;
         margin-right: 10%;
         margin-bottom: 5%;
     }
+    .bottomleft a{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+}
+footer
+{
+    margin-top: 20px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: #13556941;
+    backdrop-filter: blur(.5em);
+}
+.bottomleft{
+    width: 25%;
+    height: 100%;  
+}
+
+.bottomleft a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 200, 200);
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.bottommiddle{
+    width: 45%;
+    height: 100%;
+}
+.bottommiddle ul{
+    display: flex;
+    margin-left: -2em;
+    margin-top: 4vh;
+    justify-content: space-around;
+    list-style: none;
+}
+.bottommiddle img{
+    width: 2.3vw;
+    min-width: 1.2em;
+    max-width: 2vw ;
+}
+.bottomright{
+    width: 20%;
+    height: 100%;
+}
     #pageloader img{
         width: 130px;
-    }
-
     }
     #pageloader{
         display: flex;
