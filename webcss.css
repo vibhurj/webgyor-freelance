@@ -618,10 +618,10 @@ backdrop-filter: blur(1em);
         margin-right: 10%;
         margin-bottom: 5%;
     }
-    .bottomleft a{
-        font-size: 2vw;
-        font-weight: 500;
+    .gmail{
+        font-size: 1.1em;
     }
+   
 }
 .bottom{
     display: flex;
@@ -637,12 +637,13 @@ backdrop-filter: blur(1em);
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin-top: -2em;
+    margin-top: -3em;
+    margin-bottom: 2em;
     margin-left: -2em;
 }
 .bottomleft img{
-    width: 1.8em;
-
+    min-width: 1.7em;
+    max-width: 1em ;
 }
 .bottomleft a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -650,22 +651,11 @@ backdrop-filter: blur(1em);
     justify-content: center;
     margin-top: 6vh;
 }
-.bottomright ul{
-    display: flex;
-    margin-left: -2em;
-    margin-top: 4vh;
-    justify-content: space-around;
-    list-style: none;
-}
-.bottomright img{
-    width: 2.3vw;
-    min-width: 1.2em;
-    max-width: 2vw ;
-}
+
 .team{
     background-color: #0d485a2d;
     backdrop-filter: blur(.5em);
-    font-size: .8em;
+    font-size: 1em;
     text-align: center;
     font-family: cursive;
     color: #00000052;
