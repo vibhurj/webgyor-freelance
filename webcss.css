@@ -60,11 +60,12 @@ img{
 .navi{
         display: flex;
         position: relative;
-        background-color: #00c3ff1c;
+        background-color: #1dbeeb00;
         backdrop-filter: blur(1em);
         box-shadow: rgba(0, 0, 0, 0.308) 0px 3px 20px;
         justify-content:center;
         width: 100%;
+        margin-top: -.3em;
     }
     .navi img{
         max-width: 35px;
@@ -86,7 +87,7 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #0b485a86;
+    background-color: #0b485a23;
     backdrop-filter: blur(.4em);
     border-radius: 5em;
     margin-bottom: 1em;
@@ -130,7 +131,7 @@ a{
 }
 
 span.topbtn:hover{
-    background-color: #0d87acb0;
+    background-color: #0f526680;
     backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
