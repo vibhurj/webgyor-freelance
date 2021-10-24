@@ -157,7 +157,7 @@ align-items: center;
     padding: .6em;
     border-radius: .7em;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
 }
 .webimg img{
     display: flex;
@@ -177,7 +177,7 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
 background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
 transition: 100ms;
@@ -250,7 +250,7 @@ transition: 100ms;
     display: flex;
     position: relative;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
     text-align: center;  
     width: 98%;
     max-width: 720px;
@@ -362,7 +362,7 @@ backdrop-filter: blur(.8em);
     position: relative;
     padding: .2em;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     text-align: center;
     border-radius: .5em
@@ -379,7 +379,7 @@ backdrop-filter: blur(.8em);
     position: relative;
     text-align: center;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     align-items: center;
@@ -400,7 +400,7 @@ backdrop-filter: blur(.8em);
     position: relative;
     padding: .1em;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
@@ -432,7 +432,7 @@ backdrop-filter: blur(.8em);
     position: relative;
     text-align: center;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     padding-top:  .25em;
     padding-left: .6em;
@@ -448,12 +448,13 @@ backdrop-filter: blur(.8em);
     background-color: #00c3ff17;
 }
 .gotop{
-    display:inline-block;
-    position: fixed;
-    right: .5em;
-    bottom: 4em;
+    display:inline-flex;
+    float:right;
+    right: 1em;
+    position: sticky;
+    bottom: 8em;
     background-color: #126e8896;
-backdrop-filter: blur(.8em);
+    backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
@@ -464,6 +465,7 @@ backdrop-filter: blur(.8em);
 }
 .gotop img{
     width: 1.9em;
+    height: 2.5em;
 }
 .gotop:hover{
     background-color: #0d718fb0;
@@ -474,7 +476,7 @@ backdrop-filter: blur(.8em);
     padding-left: 0;
     padding-right: 0%;
     background-color: #1dbeeb00;
-backdrop-filter: blur(.8em);
+backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
