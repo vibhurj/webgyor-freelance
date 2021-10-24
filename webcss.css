@@ -155,8 +155,8 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: #08354296;
-    backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
 }
 .webimg img{
     display: flex;
@@ -175,8 +175,8 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background-color: #08354296;
-backdrop-filter: blur(.7em);
+background-color: #126e8896;
+backdrop-filter: blur(.8em);
 border-radius: .9rem;
 box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
 transition: 100ms;
@@ -248,8 +248,8 @@ transition: 100ms;
 .whovr{
     display: flex;
     position: relative;
-    background-color: #08354296;
-backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     text-align: center;  
     width: 98%;
     max-width: 720px;
@@ -334,9 +334,11 @@ backdrop-filter: blur(.7em);
 }
 
 .services h2{
-    color:rgb(24, 143, 212);
+    color:rgb(252, 252, 252);
+    text-shadow: #000000 1px 1px;
     font-size: 1.5em;
     letter-spacing: .5em;
+    font-weight: 900;
 }
 .section2{
     width: 100%;
@@ -358,8 +360,8 @@ backdrop-filter: blur(.7em);
 .serweb{
     position: relative;
     padding: .2em;
-    background-color: #08354296;
-    backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     text-align: center;
     border-radius: .5em
@@ -375,8 +377,8 @@ backdrop-filter: blur(.7em);
 .sercon{
     position: relative;
     text-align: center;
-    background-color: #08354296;
-    backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     align-items: center;
@@ -396,8 +398,8 @@ backdrop-filter: blur(.7em);
 .sersoc{
     position: relative;
     padding: .1em;
-    background-color: #08354296;
-backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
@@ -428,8 +430,8 @@ backdrop-filter: blur(.7em);
 .serblog{
     position: relative;
     text-align: center;
-    background-color: #08354296;
-backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     padding-top:  .25em;
     padding-left: .6em;
@@ -449,8 +451,8 @@ backdrop-filter: blur(.7em);
     position: fixed;
     right: .5em;
     bottom: 4em;
-    background-color: #08354296;
-    backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
@@ -470,8 +472,8 @@ backdrop-filter: blur(.7em);
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-    background-color: #08354296;
-backdrop-filter: blur(.7em);
+    background-color: #126e8896;
+backdrop-filter: blur(.8em);
     box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
     border-radius: .5em;
     text-align: center;
