@@ -174,7 +174,7 @@ position: relative;
 width: 98%;
 max-width: 720px;
 background-image: url(images/div/ezgif.com-gif-maker\ \(1\).gif);
-background-size: cover;
+background-size: 100%;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
