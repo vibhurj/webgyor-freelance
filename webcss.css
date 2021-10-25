@@ -87,7 +87,7 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #2e778db0;
+    background-color: #7232bbbe;
     backdrop-filter: blur(.4em);
     border-radius: 5em;
     margin-bottom: 1em;
@@ -131,7 +131,7 @@ a{
 }
 
 span.topbtn:hover{
-    background-color: #0f5266b9;
+    background-color: #300f66b9;
     backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
