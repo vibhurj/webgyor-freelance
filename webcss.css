@@ -654,7 +654,7 @@ backdrop-filter: blur(1em);
     backdrop-filter: blur(1em);
     font-size: 1em;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     color: #3d3b3bb9;
     font-weight: 500;
     margin-bottom: -1em;
