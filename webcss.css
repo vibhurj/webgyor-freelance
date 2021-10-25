@@ -2,12 +2,11 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #0e4b7c;
+    background-color: #ffffff;
 }
 .full{
     width: 100%;
     height: 100%;
-    background-image: url(images/background/top-view-geometrical-forms-with-copy-space.jpg);
     background-size: 100%;
     position: fixed;
     z-index: -1;
@@ -88,7 +87,7 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #0b485a23;
+    background-color: #0b485a63;
     backdrop-filter: blur(.4em);
     border-radius: 5em;
     margin-bottom: 1em;
@@ -132,7 +131,7 @@ a{
 }
 
 span.topbtn:hover{
-    background-color: #0f526680;
+    background-color: #0f5266b9;
     backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
@@ -157,7 +156,7 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
 }
 .webimg img{
@@ -177,10 +176,10 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background-color: #1dbeeb00;
+background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
 border-radius: .9rem;
-box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
+box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
 transition: 100ms;
 }
 .violethead{
@@ -199,11 +198,11 @@ transition: 100ms;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     position: relative;
-    color: rgb(216, 98, 190);
+    color: rgb(196, 4, 148);
 }
 .about
 {
-    color: rgb(255, 255, 255);
+    color: rgb(196, 4, 148);
     font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
@@ -213,7 +212,6 @@ transition: 100ms;
     position: relative;
 }
 .about p{
-    text-shadow: #0000008e 1px 1px;
     margin-top: 4em;
     margin-bottom: 3em;
     padding-right: .7em;
@@ -250,12 +248,12 @@ transition: 100ms;
 .whovr{
     display: flex;
     position: relative;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
     text-align: center;  
     width: 98%;
     max-width: 720px;
-    box-shadow: rgba(0, 0, 0, 0.438) 0px 2px 15px -5px;
+    box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
     border-radius: .9em;
     margin-left: auto;
     margin-right: auto;
@@ -277,21 +275,20 @@ backdrop-filter: blur(1em);
 .bluehead h4{
     display: flex;
     position: relative;
-    color: rgb(27, 64, 143);
+    color: rgb(66, 114, 219);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .whovrtext{
     display: flex;
     position: relative;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(25, 57, 126);
     font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
     text-align: right;
 }
 .whovrtext p{
-    text-shadow: #0000008e 1px 1px;
     margin-top: 4em;
     margin-bottom: 2.7em;
     margin-left: 1em;
@@ -336,8 +333,8 @@ backdrop-filter: blur(1em);
 }
 
 .services h2{
-    color:rgb(252, 252, 252);
-    text-shadow: #000000 1px 1px;
+    color:rgb(79, 159, 206);
+    text-shadow: #00000069 1px 1px;
     font-size: 1.5em;
     letter-spacing: .5em;
     font-weight: 900;
@@ -350,8 +347,8 @@ backdrop-filter: blur(1em);
     font-weight: 900;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
-    text-shadow: #00000057 1px 1px;
-    color: rgb(255, 255, 255);
+    text-shadow: #0000002f 1px 1px;
+    color: rgb(14, 85, 167);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -362,9 +359,9 @@ backdrop-filter: blur(1em);
 .serweb{
     position: relative;
     padding: .2em;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
+    box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
     text-align: center;
     border-radius: .5em
 }
@@ -379,9 +376,9 @@ backdrop-filter: blur(1em);
 .sercon{
     position: relative;
     text-align: center;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
+    box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
     border-radius: .5em;
     align-items: center;
 }
@@ -400,9 +397,9 @@ backdrop-filter: blur(1em);
 .sersoc{
     position: relative;
     padding: .1em;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
+    box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
     border-radius: .5em;
     text-align: center;
 }
@@ -421,8 +418,8 @@ backdrop-filter: blur(1em);
     font-weight: 900;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
-    color: rgb(255, 255, 255);
-    text-shadow: #00000057 1px 1px;
+    text-shadow: #0000002f 1px 1px;
+    color: rgb(14, 85, 167);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -432,9 +429,9 @@ backdrop-filter: blur(1em);
 .serblog{
     position: relative;
     text-align: center;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
+    box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
     padding-top:  .25em;
     padding-left: .6em;
     padding-right: .6em;
@@ -453,8 +450,8 @@ backdrop-filter: blur(1em);
     float:right;
     right: 1em;
     position: sticky;
-    bottom: 8em;
-    background-color: #126e8896;
+    bottom: 10.9em;
+    background-color: #0740508f;
     backdrop-filter: blur(1em);
     box-shadow: rgba(0, 0, 0, 0.274) .1em .1em .3em .1em;
     border-radius: 5em;
@@ -476,9 +473,9 @@ backdrop-filter: blur(1em);
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-    background-color: #1dbeeb00;
+    background-color: #d9dbdb23;
 backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 12px;
+    box-shadow: rgba(4, 90, 116, 0.767) 0px 2px 15px -5px;
     border-radius: .5em;
     text-align: center;
 }
@@ -492,7 +489,6 @@ backdrop-filter: blur(1em);
 }
 @media all and (max-width: 800px){
     .full{
-        background-image: url(images/background/top-view-geometrical-forms-with-copy-space2.jpg);
         background-size: 150%;
     }
     .bar{
@@ -627,18 +623,18 @@ backdrop-filter: blur(1em);
 .bottom{
     display: flex;
     width: 100%;
-    background-color: #13556941;
-    backdrop-filter: blur(.5em);
+    background-color: #5b95a356;
+    backdrop-filter: blur(3em);
     margin-bottom: -1.999em;
 }
 .gmail{
-    margin-left: 1em;
+    margin-left: .5em;
 }
 .bottomleft ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin-top: -3em;
+    margin-top: -2em;
     margin-bottom: 2em;
     margin-left: -2em;
 }
@@ -648,18 +644,18 @@ backdrop-filter: blur(1em);
 }
 .bottomleft a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(202, 200, 200);
+    color: rgb(32, 32, 32);
     justify-content: center;
     margin-top: 6vh;
 }
 
 .team{
-    background-color: #0d485a2d;
-    backdrop-filter: blur(.5em);
+    background-color: #12627a2d;
+    backdrop-filter: blur(1em);
     font-size: 1em;
     text-align: center;
     font-family: cursive;
-    color: #00000052;
+    color: #fffefe86;
     font-weight: 500;
     margin-bottom: -1em;
     
