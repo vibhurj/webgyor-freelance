@@ -364,7 +364,7 @@ background-size: cover;
     background-color: #d9dbdb23;
     backdrop-filter: blur(1em);
     background-image: url(images/div/ezgif.com-gif-maker.gif);
-    background-size: cover;
+    background-size: 200%;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
     text-align: center;
     border-radius: .5em
