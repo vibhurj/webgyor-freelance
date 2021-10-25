@@ -160,6 +160,16 @@
                 )
             })
         })   
+        const totopbtn = document.querySelector("#totop")
+        window.addEventListener("scroll",scrollfun);
+        function scrollfun(){
+            if (window.pageYOffset > 600){
+                totopbtn.style.display = "block";
+            }
+            else{
+                totopbtn.style.display = "none";
+            }
+        }
         const navbutt = document.getElementsByClassName('navbutton')[0]
         const navbar = document.getElementsByClassName('navi')[0]
         navbutt.addEventListener('click', () => {
