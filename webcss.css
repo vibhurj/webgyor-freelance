@@ -208,7 +208,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
     line-height: 30px;
     display: flex;
     justify-content: center;
-    text-align:right;
+    text-align: justify;
     position: relative;
 }
 .about p{
