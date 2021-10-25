@@ -618,6 +618,10 @@ backdrop-filter: blur(1em);
     .gmail{
         font-size: .8em;
     }
+    .gotop{
+        right: .5em;
+        bottom: 1em;
+    }
    
 }
 .bottom{
