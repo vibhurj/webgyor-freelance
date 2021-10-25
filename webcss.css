@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
 body{
     margin: 0%;
     padding: 0%;
@@ -202,7 +202,6 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
 .about
 {
     color: rgb(196, 4, 148);
-    font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
     display: flex;
