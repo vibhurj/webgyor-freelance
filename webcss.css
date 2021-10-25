@@ -450,9 +450,6 @@ backdrop-filter: blur(1em);
     position: fixed;
     z-index: 3;
     bottom: 2em;
-    background-color: #07405000;
-    backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0) .1em .1em .3em .1em;
     border-radius: 5em;
     cursor: pointer;
 }
