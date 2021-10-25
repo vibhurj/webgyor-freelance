@@ -443,8 +443,8 @@ backdrop-filter: blur(1em);
 .serblog:hover{
     background-color: #00c3ff17;
 }
-.gotop{
-    display:inline-flex;
+#totop{
+    display: none;
     float:right;
     right: 1em;
     position: fixed;
