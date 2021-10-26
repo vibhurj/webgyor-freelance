@@ -2,6 +2,8 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-image: url(images/div/5994312.2.jpg);
+    background-size: cover;
 }
 .full{
     width: 100%;
@@ -61,7 +63,7 @@ img{
         display: flex;
         position: relative;
         background-color: rgba(75, 5, 75, 0.205);
-backdrop-filter: blur(.2em);
+backdrop-filter: blur(.3em);
         box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
         justify-content:center;
         width: 100%;
@@ -89,6 +91,7 @@ span.topbtn{
     position: relative;
     border-radius: 5em;
     margin-bottom: 1em;
+    background-color: rgba(128, 0, 128, 0.514);
     box-shadow: rgba(17, 17, 17, 0.541) 0px 4px 5px -2px;
     align-items: center;
     padding: .2em;
@@ -357,7 +360,7 @@ background-size: 100%;
     padding: .2em;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     background-color: rgba(75, 5, 75, 0.205);
-backdrop-filter: blur(.2em);
+backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     text-align: center;
     border-radius: .5em
@@ -377,7 +380,7 @@ backdrop-filter: blur(.2em);
     text-align: center;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 background-color: rgba(75, 5, 75, 0.205);
-backdrop-filter: blur(.2em);
+backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     border-radius: .5em;
     align-items: center;
@@ -401,7 +404,7 @@ backdrop-filter: blur(.2em);
     padding: .1em;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 background-color: rgba(75, 5, 75, 0.205);
-backdrop-filter: blur(.2em);
+backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     border-radius: .5em;
     text-align: center;
@@ -436,7 +439,7 @@ backdrop-filter: blur(.2em);
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     background-color: rgba(75, 5, 75, 0.205);
-backdrop-filter: blur(.2em);
+backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     padding-top:  .25em;
     padding-left: .6em;
@@ -482,7 +485,7 @@ backdrop-filter: blur(.2em);
     padding-right: 0%;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 background-color: rgba(75, 5, 75, 0.205);
-backdrop-filter: blur(.2em);
+backdrop-filter: blur(.7em);
     border-radius: .5em;
     text-align: center;
     transition: ease-out .4s;
