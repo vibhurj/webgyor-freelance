@@ -2,18 +2,14 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #a4508b;
-background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-
 }
 .full{
     width: 100%;
     height: 100%;
+    background-image: url(images/div/5994313.jpg);
+    background-size: 100%;
     position: fixed;
     z-index: -1;
-    background-color: #a4508b;
-background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-
 }
 html{
     scroll-behavior: smooth;
@@ -64,6 +60,8 @@ img{
 .navi{
         display: flex;
         position: relative;
+        background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
         box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
         justify-content:center;
         width: 100%;
@@ -142,7 +140,9 @@ align-items: center;
     max-width: 700px;
     margin-top: 1em;
     padding: .6em;
-    border-radius: .7em; 
+    border-radius: .7em;
+    background-color: rgba(75, 5, 75, 0.384);
+backdrop-filter: blur(.3em); 
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 
 backdrop-filter: blur(1em);
@@ -164,7 +164,8 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
+background-image: url(images/div/23281166.jpg);
+background-size: 100%;
 border-radius: .9rem;
 transition: ease-out .3s;
 }
@@ -239,7 +240,8 @@ transition: ease-out .3s;
     display: flex;
     position: relative;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;    
-    backdrop-filter: blur(.3em);
+background-image: url(images/div/23281166.jpg);
+background-size: 100%;
     text-align: center;  
     width: 98%;
     max-width: 720px;
@@ -327,7 +329,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 }
 
 .services h2{
-    color:rgb(255, 255, 255);
+    color:rgb(59, 146, 228);
     text-shadow: #00000013 1px 1px;
     font-size: 1.5em;
     letter-spacing: .5em;
@@ -342,7 +344,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     text-shadow: #00000011 1px 1px;
-    color: rgb(255, 255, 255);
+    color: rgb(44, 44, 44);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -354,7 +356,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     position: relative;
     padding: .2em;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-    backdrop-filter: blur(1em);
+    background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
     transition: ease-out .4s;
     text-align: center;
     border-radius: .5em
@@ -373,7 +376,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     position: relative;
     text-align: center;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-    backdrop-filter: blur(1em); 
+background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
     transition: ease-out .4s;
     border-radius: .5em;
     align-items: center;
@@ -396,7 +400,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     position: relative;
     padding: .1em;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-    backdrop-filter: blur(1em);
+background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
     transition: ease-out .4s;
     border-radius: .5em;
     text-align: center;
@@ -419,7 +424,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     text-shadow: #0000000c 1px 1px;
-    color: rgb(255, 255, 255);
+    color: rgb(44, 44, 44);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -430,7 +435,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     position: relative;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-    backdrop-filter: blur(1em);
+    background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
     transition: ease-out .4s;
     padding-top:  .25em;
     padding-left: .6em;
@@ -475,7 +481,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     padding-left: 0;
     padding-right: 0%;
 box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-    backdrop-filter: blur(1em);
+background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
     border-radius: .5em;
     text-align: center;
     transition: ease-out .4s;
@@ -492,7 +499,9 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 }
 @media all and (max-width: 800px){
     .full{
-        background-size: 150%;
+        background-image: url(images/div/5994312.2.jpg);
+        background-size: 100%;
+
     }
     .bar{
         max-height: 35px;
@@ -547,6 +556,10 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
         align-self: center;
         margin-top: 5em;
     }
+    .aboutimg{
+        background-image: url(images/div/23281166.2.jpg);
+        background-size: cover;
+    }
     .about{
         text-align: left;
         justify-content: center;
@@ -554,6 +567,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     .whovr{
         display: flex;
         position: relative;
+        background-image: url(images/div/23281166.2.jpg);
+        background-size: cover;
         flex-direction: column-reverse;
         width: 90%;
     }
@@ -630,6 +645,8 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     width: 100%;
     margin-top: 1.5em;
     justify-content: space-between;
+    background-color: rgba(75, 5, 75, 0.205);
+backdrop-filter: blur(.2em);
     box-shadow: rgba(0, 0, 0, 0.199) 0px -4px 9px;
 }
 .gmail{
@@ -649,7 +666,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
 }
 .bottomleft a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(224, 219, 219);
+    color: rgb(0, 0, 0);
     justify-content: center;
     margin-top: 6vh;
 }
@@ -660,7 +677,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     list-style: none;
 }
 .bottomright a{
-    color: rgba(255, 255, 255, 0.856);
+    color: rgba(0, 0, 0, 0.856);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
@@ -671,7 +688,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     font-size: 1em;
     text-align: center;
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    color: #ffffffb9;
+    color: #000000b9;
     font-weight: 300;
     margin-bottom: -1em;
     
