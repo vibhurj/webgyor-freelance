@@ -360,7 +360,7 @@ background-size: 100%;
     padding: .2em;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     background-color: rgba(248, 8, 248, 0.144);
-backdrop-filter: blur(.7em);
+    backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     text-align: center;
     border-radius: .5em
@@ -378,9 +378,9 @@ backdrop-filter: blur(.7em);
 .sercon{
     position: relative;
     text-align: center;
-box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-background-color: rgba(248, 8, 248, 0.144);
-backdrop-filter: blur(.7em);
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
+    background-color: rgba(248, 8, 248, 0.144);
+    backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     border-radius: .5em;
     align-items: center;
@@ -402,9 +402,9 @@ backdrop-filter: blur(.7em);
 .sersoc{
     position: relative;
     padding: .1em;
-box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-background-color: rgba(248, 8, 248, 0.144);
-backdrop-filter: blur(.7em);
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
+    background-color: rgba(248, 8, 248, 0.144);
+    backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     border-radius: .5em;
     text-align: center;
@@ -439,7 +439,7 @@ backdrop-filter: blur(.7em);
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
     background-color: rgba(248, 8, 248, 0.144);
-backdrop-filter: blur(.7em);
+    backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     padding-top:  .25em;
     padding-left: .6em;
@@ -473,19 +473,15 @@ backdrop-filter: blur(.7em);
 .gotop img{
     width: 4.9em;
     height: 5.5em;
-    opacity: 70%;
-}
-.gotop img:hover{
-    opacity: 100%;
 }
 .serpost{
     position: relative;
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
-background-color: rgba(248, 8, 248, 0.144);
-backdrop-filter: blur(.7em);
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 5px 1px;
+    background-color: rgba(248, 8, 248, 0.144);
+    backdrop-filter: blur(.7em);
     border-radius: .5em;
     text-align: center;
     transition: ease-out .4s;
@@ -640,8 +636,7 @@ backdrop-filter: blur(.7em);
     #totop{
         right: .7em;
         bottom: 1em;
-    }
-   
+    }  
 }
 .bottom{
     display: flex;
@@ -693,10 +688,8 @@ backdrop-filter: blur(.7em);
     font-family: 'Times New Roman', Times, serif, sans-serif;
     color: #000000b9;
     font-weight: 300;
-    margin-bottom: -1em;
-    
+    margin-bottom: -1em;   
 }
-
     #pageloader img{
         width: 130px;
     }
