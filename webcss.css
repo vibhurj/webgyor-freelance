@@ -503,7 +503,7 @@ backdrop-filter: blur(.7em);
 @media all and (max-width: 800px){
     .full{
         background-image: url(images/div/5994312.2.jpg);
-        background-size: 100%;
+        background-size: cover;
 
     }
     .bar{
