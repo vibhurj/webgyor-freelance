@@ -9,6 +9,8 @@ body{
     height: 100%;
     position: fixed;
     z-index: -1;
+    background-color: #f977ce;
+background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
 }
 html{
     scroll-behavior: smooth;
@@ -59,7 +61,8 @@ img{
 .navi{
         display: flex;
         position: relative;
-        background-color: #c300ff2a;
+        background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
         backdrop-filter: blur(1em);
         box-shadow: rgba(0, 0, 0, 0.089) 0px 3px 20px;
         justify-content:center;
@@ -86,7 +89,8 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #83379b8c;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #9b1b74 0%, #5f0a87 74%);
     backdrop-filter: blur(.4em);
     border-radius: 5em;
     margin-bottom: 1em;
@@ -94,19 +98,7 @@ span.topbtn{
     align-items: center;
     padding: .2em;
 }
-.span.topbtn::before{
-    content: '';
-    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
-    position: absolute;
-    z-index: -1;
-    top: 1em;
-    bottom: -.3em;
-    left: .5em;
-    right: .5em;
-    border-radius: 15px;
-    filter: blur(.2em);
-    visibility: hidden;
-}
+
 span.topbtn a{
     display: flex;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -129,8 +121,9 @@ a{
     margin-left: .5em;
 }
 
-span.topbtn:hover{
-    background-color: #300f66b9;
+.topbtn:hover{
+    background-color: #520f66b9;
+    background-image: none;
     backdrop-filter: blur(.4em);
 }
 span.topbtn:hover::before,span:focus::before{
@@ -155,7 +148,9 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: #c300ff2a;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
 backdrop-filter: blur(1em);
 }
 .webimg img{
@@ -175,7 +170,9 @@ max-width: 720px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background-color: #c300ff2a;
+background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
 border-radius: .9rem;
 transition: ease-out .3s;
 }
@@ -199,11 +196,11 @@ transition: ease-out .3s;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     position: relative;
-    color: rgb(196, 4, 148);
+    color: rgb(223, 221, 222);
 }
 .about
 {
-    color: rgb(136, 46, 131);
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
     display: flex;
@@ -248,7 +245,7 @@ transition: ease-out .3s;
 .whovr{
     display: flex;
     position: relative;
-    background-color: #c300ff2a;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(.3em);
     text-align: center;  
     width: 98%;
@@ -278,14 +275,14 @@ transition: ease-out .3s;
 .bluehead h4{
     display: flex;
     position: relative;
-    color: rgb(66, 114, 219);
+    color: rgb(255, 255, 255);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .whovrtext{
     display: flex;
     position: relative;
     align-items: center;
-    color: rgb(136, 46, 131);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
@@ -336,7 +333,7 @@ transition: ease-out .3s;
 }
 
 .services h2{
-    color:rgb(79, 159, 206);
+    color:rgb(255, 255, 255);
     text-shadow: #00000013 1px 1px;
     font-size: 1.5em;
     letter-spacing: .5em;
@@ -351,7 +348,7 @@ transition: ease-out .3s;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     text-shadow: #00000011 1px 1px;
-    color: rgb(136, 46, 131);
+    color: rgb(255, 255, 255);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -362,7 +359,8 @@ transition: ease-out .3s;
 .serweb{
     position: relative;
     padding: .2em;
-    background-color: #c300ff2a;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(1em);
     transition: ease-out .4s;
     text-align: center;
@@ -381,7 +379,8 @@ transition: ease-out .3s;
 .sercon{
     position: relative;
     text-align: center;
-    background-color: #c300ff2a;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(1em); 
     transition: ease-out .4s;
     border-radius: .5em;
@@ -404,7 +403,8 @@ transition: ease-out .3s;
 .sersoc{
     position: relative;
     padding: .1em;
-    background-color: #c300ff2a;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(1em);
     transition: ease-out .4s;
     border-radius: .5em;
@@ -428,7 +428,7 @@ transition: ease-out .3s;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     text-shadow: #0000000c 1px 1px;
-    color: rgb(136, 46, 131);
+    color: rgb(255, 255, 255);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -438,7 +438,8 @@ transition: ease-out .3s;
 .serblog{
     position: relative;
     text-align: center;
-    background-color: #c300ff2a;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(1em);
     transition: ease-out .4s;
     padding-top:  .25em;
@@ -483,7 +484,8 @@ transition: ease-out .3s;
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-    background-color: #c300ff2a;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(1em);
     border-radius: .5em;
     text-align: center;
@@ -639,7 +641,8 @@ transition: ease-out .3s;
 .bottom{
     display: flex;
     width: 100%;
-    background-color: #da83f58c;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     backdrop-filter: blur(3em);
     margin-top: 1.5em;
     justify-content: space-between;
@@ -661,7 +664,7 @@ transition: ease-out .3s;
 }
 .bottomleft a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(32, 32, 32);
+    color: rgb(224, 219, 219);
     justify-content: center;
     margin-top: 6vh;
 }
@@ -672,7 +675,7 @@ transition: ease-out .3s;
     list-style: none;
 }
 .bottomright a{
-    color: rgba(58, 58, 58, 0.856);
+    color: rgba(230, 227, 227, 0.856);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
