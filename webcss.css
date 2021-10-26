@@ -7,7 +7,6 @@ body{
 .full{
     width: 100%;
     height: 100%;
-    background-size: 100%;
     position: fixed;
     z-index: -1;
 }
@@ -60,7 +59,7 @@ img{
 .navi{
         display: flex;
         position: relative;
-        background-color: #1dbeeb00;
+        background-color: #c300ff2a;
         backdrop-filter: blur(1em);
         box-shadow: rgba(0, 0, 0, 0.089) 0px 3px 20px;
         justify-content:center;
@@ -87,7 +86,7 @@ span.topbtn{
     display:flex;
     width: 100%;
     position: relative;
-    background-color: #7232bbbe;
+    background-color: #83379b8c;
     backdrop-filter: blur(.4em);
     border-radius: 5em;
     margin-bottom: 1em;
@@ -156,7 +155,7 @@ align-items: center;
     margin-top: 1em;
     padding: .6em;
     border-radius: .7em;
-    background-color: #d9dbdb23;
+    background-color: #c300ff2a;
 backdrop-filter: blur(1em);
 }
 .webimg img{
@@ -173,14 +172,15 @@ display:flex;
 position: relative;
 width: 98%;
 max-width: 720px;
-background-image: url(images/div/ezgif.com-gif-maker\ \(1\).gif);
-background-size: 100%;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
-background-color: #ffffff;
+background-color: #c300ff2a;
 border-radius: .9rem;
-box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+transition: ease-out .3s;
+}
+.aboutimg:hover{
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 7px 9px 4px;
 }
 
 .violethead{
@@ -203,7 +203,7 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
 }
 .about
 {
-    color: rgb(196, 4, 148);
+    color: rgb(136, 46, 131);
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
     display: flex;
@@ -248,16 +248,19 @@ box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
 .whovr{
     display: flex;
     position: relative;
-    background-color: #d9dbdb23;
-backdrop-filter: blur(1em);
+    background-color: #c300ff2a;
+    backdrop-filter: blur(.3em);
     text-align: center;  
     width: 98%;
     max-width: 720px;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+    transition: ease-out .3s;
     border-radius: .9em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+}
+.whovr:hover{
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 7px 9px 4px;
 }
 .bluehead{
     display: flex;
@@ -282,7 +285,7 @@ backdrop-filter: blur(1em);
     display: flex;
     position: relative;
     align-items: center;
-    color: rgb(66, 114, 219);
+    color: rgb(136, 46, 131);
     font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 30px;
@@ -348,7 +351,7 @@ backdrop-filter: blur(1em);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     text-shadow: #00000011 1px 1px;
-    color: rgb(14, 85, 167);
+    color: rgb(136, 46, 131);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -359,9 +362,9 @@ backdrop-filter: blur(1em);
 .serweb{
     position: relative;
     padding: .2em;
-    background-color: #d9dbdb23;
+    background-color: #c300ff2a;
     backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+    transition: ease-out .4s;
     text-align: center;
     border-radius: .5em
 }
@@ -370,15 +373,17 @@ backdrop-filter: blur(1em);
     margin-bottom: .9em;
 }
 .serweb:hover{
-    background-color: #00c3ff17;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 0px;
 }
 
 .sercon{
     position: relative;
     text-align: center;
-    background-color: #d9dbdb23;
-backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+    background-color: #c300ff2a;
+    backdrop-filter: blur(1em); 
+    transition: ease-out .4s;
     border-radius: .5em;
     align-items: center;
 }
@@ -392,14 +397,16 @@ backdrop-filter: blur(1em);
     padding-right: 3rem;
 }
 .sercon:hover{
-    background-color: #00c3ff17;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 0px;
 }
 .sersoc{
     position: relative;
     padding: .1em;
-    background-color: #d9dbdb23;
-backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+    background-color: #c300ff2a;
+    backdrop-filter: blur(1em);
+    transition: ease-out .4s;
     border-radius: .5em;
     text-align: center;
 }
@@ -410,7 +417,9 @@ backdrop-filter: blur(1em);
 
 }
 .sersoc:hover{
-    background-color: #00c3ff17;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 0px;
 }
 .serow2{
     display: flex;
@@ -419,7 +428,7 @@ backdrop-filter: blur(1em);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: .9em;
     text-shadow: #0000000c 1px 1px;
-    color: rgb(14, 85, 167);
+    color: rgb(136, 46, 131);
     width: 98%;
     max-width: 710px;
     margin-left: auto;
@@ -429,9 +438,9 @@ backdrop-filter: blur(1em);
 .serblog{
     position: relative;
     text-align: center;
-    background-color: #d9dbdb23;
-backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+    background-color: #c300ff2a;
+    backdrop-filter: blur(1em);
+    transition: ease-out .4s;
     padding-top:  .25em;
     padding-left: .6em;
     padding-right: .6em;
@@ -443,7 +452,9 @@ backdrop-filter: blur(1em);
     margin-right: 2.4em;
 }
 .serblog:hover{
-    background-color: #00c3ff17;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 0px;
 }
 #totop{
     display: none;
@@ -472,11 +483,11 @@ backdrop-filter: blur(1em);
     padding-top: .2em;
     padding-left: 0;
     padding-right: 0%;
-    background-color: #d9dbdb23;
-backdrop-filter: blur(1em);
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 15px -5px;
+    background-color: #c300ff2a;
+    backdrop-filter: blur(1em);
     border-radius: .5em;
     text-align: center;
+    transition: ease-out .4s;
 }
 .serpost p{
     margin-top: auto;
@@ -484,7 +495,9 @@ backdrop-filter: blur(1em);
     margin-right: 2.4em;
 }
 .serpost:hover{
-    background-color: #00c3ff17;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 0px;
 }
 @media all and (max-width: 800px){
     .full{
@@ -626,7 +639,7 @@ backdrop-filter: blur(1em);
 .bottom{
     display: flex;
     width: 100%;
-    background-color: #e7e8e956;
+    background-color: #da83f58c;
     backdrop-filter: blur(3em);
     margin-top: 1.5em;
     justify-content: space-between;
