@@ -161,9 +161,7 @@
         window.addEventListener("load",function(){
             loader.style.display="none"
         })
-        document.getElementById("totop").addEventListener("click",function(){
-            window.addEventListener("click",function()
-            {
+        document.getElementById("totop").addEventListener("click",function(){   
                 window.scrollTo(
                     {
                         top:0,
@@ -171,7 +169,6 @@
                         behavior:"smooth"
                     }
                 )
-            })
         })   
         const totopbtn = document.querySelector("#totop")
         window.addEventListener("scroll",scrollfun);

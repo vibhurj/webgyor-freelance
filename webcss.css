@@ -16,7 +16,6 @@ html{
     background-color: rgb(0, 0, 0);
     opacity: 90%;
     box-shadow: rgba(0, 0, 0, 0.452) -1px 2px 8px;
-    position: sticky;
     top: 0;
     z-index: 2;   
 }
@@ -29,40 +28,38 @@ html{
     background: none;
     position: absolute;
     right: .5em;
-    top:-.1em
+}
+.navbutton a{
+    background: none;
 }
 .navbutton img{
+    background: none;
     width: 2em;
     opacity:80% ;
 }
     .navi img{
         max-width: 35px;
-        max-height: 25px;
-        
+        max-height: 25px; 
     }
 .navi ul{
     margin-top: 2em;
     list-style: none;
     display: flex;
     justify-content:center;
-
 }
-
 .navi ul li{
     margin-left: 3em;
 }
-
 span.topbtn{
     display:flex;
     width: 100%;
     margin-bottom: 1em;
     align-items: center;
 }
-
 .topbtn a{
     display: flex;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .75em;
+    font-size: .95em;
     font-weight: 700;
 }
 .topbtn :hover{
@@ -96,7 +93,7 @@ span.topbtn{
     background-color: rgba(117, 116, 116, 0.253);
 }
 .section1{
-    width: 100%;
+width: 100%;
 text-align: center;
 justify-content: center;
 align-items: center;
@@ -325,6 +322,7 @@ padding: 3em;
     bottom: 0;
     background: none;
     z-index: 1;
+    cursor: pointer;
 }
 .gotop button{
     border: none;
@@ -348,6 +346,7 @@ padding: 3em;
     text-align: center;
     transition: ease-out .4s;
     margin-top: -3.3em;
+    margin-right: 6em;
 }
 .serpost p{
     margin-top: auto;
@@ -369,7 +368,7 @@ padding: 3em;
         display: none;
     }
     .bar{
-        max-height: 35px;
+        max-height: 45px;
     }
     .navi{
         display: none;
@@ -380,9 +379,8 @@ padding: 3em;
     .navi ul{
         display: flex;
         flex-direction: column;
-        font-size: 1.6em;
         width: 100%;
-        margin-top: 15em;
+        margin-top: 20em;
     }
     .line1{
         width: 100%;
@@ -391,7 +389,7 @@ padding: 3em;
        
     }
     .navi li{
-        margin-top: 1em;
+        margin-top: 1.5em;
         margin-right: 1em;
     }
     .navi.active{
@@ -406,7 +404,7 @@ padding: 3em;
     span.topbtn a{
         display: flex;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: .49em;
+        font-size: 1em;
         font-weight: 700;
     }
     .logopic{
@@ -470,7 +468,7 @@ padding: 3em;
     .sercon{
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 1.1em;
+        margin-left: .3em;
         margin-right: 10%;
     }
     .sersoc{
@@ -494,7 +492,7 @@ padding: 3em;
     .gmail{
         font-size: .8em;
     }
-    #totop{
+    {
         bottom: 2em;
     }  
 }
