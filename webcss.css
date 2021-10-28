@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Proza+Libre&display=swap');
 body{
     margin: 0%;
     padding: 0%;
@@ -15,8 +15,7 @@ html{
     background-color: rgb(0, 0, 0);
     opacity: 90%;
     box-shadow: rgba(0, 0, 0, 0.452) -1px 2px 8px;
-    top: 0;
-    z-index: 2;   
+    top: 0; 
 }
 .gif{
     height: 90%;;
@@ -71,10 +70,12 @@ span.topbtn{
     padding-left: .6em;
     padding-right: .6em;
     position: relative;
-    color: rgb(167, 166, 166);    
+    color: rgb(167, 166, 166);  
 }
 .logopic{
     width: 80vw;
+    position: relative;
+    z-index: -1;
 }
 .hmimg{
     display: flex;
@@ -118,7 +119,6 @@ padding: 3em;
 .about p{
     color: rgb(138, 14, 138);
     text-align: justify;
-    font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.4vh;
     line-height: 2em;
@@ -157,8 +157,8 @@ padding: 3em;
     display: flex;
     position: relative;
     align-items: flex-end;
-    color: rgb(24, 101, 163);
-    font-weight: 600;
+    color: rgb(17, 72, 117);
+    font-weight:lighter;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.4vh;
     line-height: 2em;
@@ -188,121 +188,138 @@ padding: 3em;
     font-size: 1.5em;
     letter-spacing: .5em;
 }
-.section2{
-    display: flex;
-    width: 100%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
-.monitor{
-    position: absolute;
-    top: 8%;
-    margin-left: .1em;
-    width: 35em;
-}
-.phone{
-    display: none;
-}
 .serow1{
     display: flex;
-    flex-direction: row;
-    overflow-y: hidden;
-    font-weight: 900;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: .9em;
-    text-shadow: #00000011 1px 1px;
-    background-image: url(images/background/5083499.jpg);
-    background-size: cover;
-    color: rgb(43, 42, 42);
-    width: 25em;
-    height: 12em;
-    max-width: 710px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
     margin-top: 3em;
-    padding: 5.2em;
-    padding-top: 7em;
-    margin-bottom: 7em;
+    margin-bottom: 3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.3vh;
+    text-shadow: #00000011 1px 1px;
+    color: rgb(43, 42, 42);
+}
+.serow2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.3vh;
+    text-shadow: #00000011 1px 1px;
+    color: rgb(43, 42, 42);
+}
+.serow3{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.3vh;
+    text-shadow: #00000011 1px 1px;
+    color: rgb(43, 42, 42);
 }
 .serweb{
     width: 14em;
-    height: 17.4em;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px -1px 5px 1px;
-    background-color: rgba(3, 7, 223, 0.158);
-    backdrop-filter: blur(.7em);
     transition: ease-out .4s;
     text-align: center;
-    margin-top: -3.3em;
-    margin-left: 6em;
+    margin-right: 2%;
+    border: rgba(5, 104, 150, 0.26) 3px solid;
     border-radius: .5em;
-    margin-right: 8.5em;
+}
+.imgweb{
+    max-width: 11vw;
+    min-width: 140px
 }
 .serweb:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 1px 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
 }
 .sercon{
-    height: 17em;
-    position: relative;
-    padding: .2em;
+    width: 14em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px -1px 5px 1px;
-    background-color: rgba(3, 7, 223, 0.158);
-    backdrop-filter: blur(.7em);
     transition: ease-in-out .3s;
-    border-radius: .5em;
     align-items: center;
-    margin-right: 9em;
-    margin-top: -3.3em;
+    justify-content: center;
+    margin-right: 2%;
+    border: rgba(5, 104, 150, 0.26) 3px solid;
+    border-radius: .5em;
+}
+.imgcon{
+    max-width: 7.5vw;
+    min-width: 90px;
 }
 .sercon:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 5px;
+    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
 }
 .sersoc{
     width: 14em;
-    height: 17.2em;
-    position: relative;
-    padding: .1em;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px -1px 5px 1px;
-    background-color: rgba(3, 7, 223, 0.158);
-    backdrop-filter: blur(.7em);
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     transition: ease-out .4s;
     border-radius: .5em;
     text-align: center;
-    margin-right: 8.5em;
-    margin-top: -3.3em;
+    margin-right: 2%;
+    border: rgba(5, 104, 150, 0.26) 3px solid;
+    border-radius: .5em;
+}
+.imgsoc{
+    max-width: 9.2vw;
+    min-width: 100px;
+    margin-bottom: -2.9em;
+    margin-top: -.6em;
 }
 .sersoc p{
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-top: 2em;
-
 }
 .sersoc:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 5px;
+    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
 }
 .serblog{
     width: 14em;
-    height: 17.2em;
-    position: relative;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px -1px 5px 1px;
-    background-color: rgba(3, 7, 223, 0.158);
-    backdrop-filter: blur(.7em);
     transition: ease-out .4s;
-    padding-top:  .25em;
-    padding-left: .6em;
-    padding-right: .6em;
     border-radius: .5em;
-    margin-right: 8.5em;
-    margin-top: -3.3em;
+    margin-right: 2%;
+    border: rgba(5, 104, 150, 0.26) 3px solid;
+    border-radius: .5em;
+}
+.imgblog{
+    margin-top: -1.4em;
+    margin-bottom: -2em;
+    max-width: 9.5vw;
+    min-width: 120px;
 }
 .serblog p{
     margin-top: 0;
@@ -312,7 +329,7 @@ padding: 3em;
 .serblog:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 5px;
+    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
 }
 #totop{
     display: none;
@@ -333,19 +350,20 @@ padding: 3em;
 }
 .serpost{
     width: 14em;
-    height: 17.2em;
-    position: relative;
-    padding-top: .2em;
-    padding-left: 0;
-    padding-right: 0%;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px -1px 5px 1px;
-    background-color: rgba(3, 7, 223, 0.158);
-    backdrop-filter: blur(.7em);
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: .5em;
     text-align: center;
-    transition: ease-out .4s;
-    margin-top: -3.3em;
-    margin-right: 6em;
+    transition: ease-in-out .3s;
+    border: rgba(5, 104, 150, 0.26) 3px solid;
+    border-radius: .5em;
+}
+.imgpost{
+    max-width: 11vw;
+    min-width: 180px;
 }
 .serpost p{
     margin-top: auto;
@@ -355,17 +373,9 @@ padding: 3em;
 .serpost:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 1px 3px 7px 5px;
+    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
 }
 @media all and (max-width: 800px){
-    .full{
-        background-image: url(images/div/5994312.2.jpg);
-        background-size: cover;
-
-    }
-    .monitor{
-        display: none;
-    }
     .bar{
         max-height: 40px;
     }
@@ -407,8 +417,7 @@ padding: 3em;
         font-weight: 700;
     }
     .logopic{
-        overflow: hidden;
-        margin-top: 2em;
+        margin-top: 3em;
         width: 100%;
         position: relative;
         z-index: -1;
@@ -421,8 +430,8 @@ padding: 3em;
 .about p{
     margin:6%;
     margin-right: 3%;
-    font-size: 1.1em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1.5em;
 }
     .whovr{
         overflow: hidden;
@@ -445,54 +454,39 @@ padding: 3em;
     .whovrtext{
         text-align: left;
         justify-content: center;
-        font-size: 1.1em;
-        line-height: 2em;
+        font-size: 1em;
+        line-height: 1.5em;
     }
-    .phone{
-    display: flex;
-    position: absolute;
-    top: 8%;
-    margin-left: -.2em;
-    width: 22em;
-    height: 40em;
-    }
-    .serow1{
-        margin-top: 7em;
-        margin-bottom: 24em;
-        width: 10.45em;
-        font-family: ;
-        height: 30em;
-    }
-    .serweb{
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: -1em;
-        margin-right: 10%;
-    }
-    .sercon{
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: .3em;
-        margin-right: 10%;
-    }
-    .sersoc{
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1.1em;
-        margin-right: 10%;
-    }
-    .serblog{
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1.1em;
-        margin-right: 10%;
-    }
-    .serpost{
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1.1em;
-        margin-right: -1em;
-    }
+.serweb{
+    width: 12em;
+    height: 10em;
+}
+.sercon{
+    width: 11.5em;
+    height: 10em;
+}
+.sersoc{
+    width: 12em;
+    height: 10em;
+}
+.serblog{
+    width: 12em;
+    height: 10em;
+}
+.serpost{
+    width: 12em;
+    height: 10em;
+}
+.serow1{
+    margin-bottom: 1em;
+}
+.serow2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.serow3{
+    margin-top: 01em;
+}
     .gmail{
         font-size: .8em;
     }
