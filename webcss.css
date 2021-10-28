@@ -6,7 +6,6 @@ body{
 html{
     scroll-behavior: smooth;
 }
-
 .bar{
     display: flex;
     justify-content: center;
@@ -368,7 +367,7 @@ padding: 3em;
         display: none;
     }
     .bar{
-        max-height: 45px;
+        max-height: 40px;
     }
     .navi{
         display: none;
@@ -399,7 +398,6 @@ padding: 3em;
         justify-content: center;
         margin-right: 8%;
         padding-right: 5em;
-        transition: ease-in-out .3s;
         background-color: rgb(0, 0, 0);
     }
     span.topbtn a{
@@ -409,10 +407,14 @@ padding: 3em;
         font-weight: 700;
     }
     .logopic{
+        overflow: hidden;
         margin-top: 2em;
         width: 100%;
+        position: relative;
+        z-index: -1;
     }
     .aboutimg{
+        overflow: hidden;
         flex-direction: column;
         padding: 1%;
     }
@@ -423,6 +425,7 @@ padding: 3em;
     line-height: 2em;
 }
     .whovr{
+        overflow: hidden;
         flex-direction: column-reverse;
         margin-top: 3em;
         padding: 1%;
@@ -493,9 +496,6 @@ padding: 3em;
     .gmail{
         font-size: .8em;
     }
-    {
-        bottom: 2em;
-    }  
 }
 .bottom{
     display: flex;
