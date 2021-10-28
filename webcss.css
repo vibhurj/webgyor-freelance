@@ -363,7 +363,7 @@ padding: 3em;
 }
 .imgpost{
     max-width: 11vw;
-    min-width: 180px;
+    min-width: 120px;
 }
 .serpost p{
     margin-top: auto;
@@ -428,9 +428,9 @@ padding: 3em;
         padding: 1%;
     }
 .about p{
-    margin:6%;
-    margin-right: 3%;
-    font-size: 1em;
+    margin:4%;
+    margin-right: 1%;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
     .whovr{
@@ -442,7 +442,7 @@ padding: 3em;
     .whovrtext p{
         margin-left: 0%;
         margin-right: 0%;
-        margin: 6%;
+        margin: 4%;
     }
     .bluehead h4{
        margin: 0;
@@ -454,12 +454,15 @@ padding: 3em;
     .whovrtext{
         text-align: left;
         justify-content: center;
-        font-size: 1em;
+        font-size: 1.2em;
         line-height: 1.5em;
     }
 .serweb{
     width: 12em;
     height: 10em;
+}
+.sersoc p{
+    margin-top: 2.7em;
 }
 .sercon{
     width: 11.5em;
@@ -472,6 +475,9 @@ padding: 3em;
 .serblog{
     width: 12em;
     height: 10em;
+}
+.serblog p{
+    margin-top: .8em;
 }
 .serpost{
     width: 12em;
