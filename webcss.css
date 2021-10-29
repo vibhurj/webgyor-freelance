@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Lato:wght@300&family=Philosopher&display=swap');
 body{
     margin: 0%;
     padding: 0%;
@@ -56,9 +56,9 @@ span.topbtn{
 }
 .topbtn a{
     display: flex;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: .95em;
-    font-weight: 700;
+    font-weight: 500;
 }
 .topbtn :hover{
     color: rgb(252, 252, 253);
@@ -110,14 +110,15 @@ margin-top: 2em;
 padding: 3em;
 }
 .aboutimg h4{
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     display: flex;
     margin-left: 4em;
     color: rgb(189, 25, 189);
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 500;
 }
 .about p{
-    color: rgb(138, 14, 138);
+    color: rgba(68, 68, 68, 0.753);
     text-align: justify;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.4vh;
@@ -148,17 +149,17 @@ padding: 3em;
 }
 .bluehead h4{
     display: flex;
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     margin-left: 30%;
     color: rgb(24, 101, 163);
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 500;
 }
 .whovrtext{
     display: flex;
     position: relative;
     align-items: flex-end;
-    color: rgb(17, 72, 117);
-    font-weight:lighter;
+    color: rgba(68, 68, 68, 0.753);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.4vh;
     line-height: 2em;
@@ -179,14 +180,17 @@ padding: 3em;
     padding-bottom: 1em;
     align-items: center;
     justify-content: center;
-    background-image: ;
 }
 
 .services h2{
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     color:rgb(39, 119, 194);
     font-size: 1.5em;
     letter-spacing: .5em;
+}
+.section2 a{
+    margin-right: 2%;
+    text-decoration: none;
 }
 .serow1{
     display: flex;
@@ -195,20 +199,22 @@ padding: 3em;
     align-items: center;
     margin-top: 3em;
     margin-bottom: 3em;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2.3vh;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+    font-size: 2.1vh;
     text-shadow: #00000011 1px 1px;
     color: rgb(43, 42, 42);
 }
 .serow2{
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin-top: 3em;
     margin-bottom: 3em;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2.3vh;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+    font-size: 2.1vh;
     text-shadow: #00000011 1px 1px;
     color: rgb(43, 42, 42);
 }
@@ -221,8 +227,9 @@ padding: 3em;
     margin-right: 2em;
     margin-top: 3em;
     margin-bottom: 3em;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2.3vh;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+    font-size: 2.1vh;
     text-shadow: #00000011 1px 1px;
     color: rgb(43, 42, 42);
 }
@@ -236,8 +243,7 @@ padding: 3em;
     position: relative;
     transition: ease-out .4s;
     text-align: center;
-    margin-right: 2%;
-    border: rgba(5, 104, 150, 0.26) 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
     border-radius: .5em;
 }
 .imgweb{
@@ -247,7 +253,7 @@ padding: 3em;
 .serweb:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
 }
 .sercon{
     width: 14em;
@@ -259,7 +265,7 @@ padding: 3em;
     align-items: center;
     justify-content: center;
     margin-right: 2%;
-    border: rgba(5, 104, 150, 0.26) 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
     border-radius: .5em;
 }
 .imgcon{
@@ -269,7 +275,7 @@ padding: 3em;
 .sercon:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
 }
 .sersoc{
     width: 14em;
@@ -282,7 +288,7 @@ padding: 3em;
     border-radius: .5em;
     text-align: center;
     margin-right: 2%;
-    border: rgba(5, 104, 150, 0.26) 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
     border-radius: .5em;
 }
 .imgsoc{
@@ -299,7 +305,7 @@ padding: 3em;
 .sersoc:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
 }
 .serblog{
     width: 14em;
@@ -312,7 +318,7 @@ padding: 3em;
     transition: ease-out .4s;
     border-radius: .5em;
     margin-right: 2%;
-    border: rgba(5, 104, 150, 0.26) 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
     border-radius: .5em;
 }
 .imgblog{
@@ -329,7 +335,7 @@ padding: 3em;
 .serblog:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
 }
 #totop{
     display: none;
@@ -358,7 +364,7 @@ padding: 3em;
     border-radius: .5em;
     text-align: center;
     transition: ease-in-out .3s;
-    border: rgba(5, 104, 150, 0.26) 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
     border-radius: .5em;
 }
 .imgpost{
@@ -373,7 +379,7 @@ padding: 3em;
 .serpost:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
 }
 @media all and (max-width: 800px){
     .bar{
@@ -412,9 +418,9 @@ padding: 3em;
     }
     span.topbtn a{
         display: flex;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1em;
-        font-weight: 700;
+        font-family: 'Philosopher', sans-serif;
+         font-size: .9em;
+        font-weight: 500;
     }
     .logopic{
         margin-top: 3em;
@@ -430,7 +436,7 @@ padding: 3em;
 .about p{
     margin:4%;
     margin-right: 1%;
-    font-size: 1.2em;
+    font-size: .86em;
     line-height: 1.5em;
 }
     .whovr{
@@ -449,12 +455,12 @@ padding: 3em;
     }
     .whovrimg{
         align-self: center;
-        margin-top: 5em;
+        margin-top: 3em;
     }
     .whovrtext{
         text-align: left;
         justify-content: center;
-        font-size: 1.2em;
+        font-size: .86em;
         line-height: 1.5em;
     }
 .serweb{
@@ -495,9 +501,97 @@ padding: 3em;
 .serow3{
     margin-top: 01em;
 }
+.mainweb h3{
+    font-size: 2.vw;
+}
     .gmail{
         font-size: .8em;
     }
+}
+.mainweb{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 4em;
+    background-color: rgba(12, 151, 243, 0.253);
+}
+.mainweb h3{
+    color: rgb(158, 7, 7);
+    font-size: 2.6vw;
+    font-family: cursive;
+}
+.mainweb p{
+    font-size: 2.6vh;
+    font-family: 'Lato', sans-serif;
+}
+.maincon{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 4em;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.maincon h3{
+    color: rgb(42, 120, 165);
+    text-align: right;
+    font-size: 2.6vw;
+    font-family: cursive;
+}
+.maincon p{
+    font-size: 2.6vh;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+
+}
+.mainsoc{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 4em;
+    background-color: rgba(12, 151, 243, 0.253);
+}
+.mainsoc h3{
+    text-align: ;
+    color: brown;
+    font-size: 2.6vw;
+    font-family: cursive;
+}
+.mainsoc p{
+    font-size: 2.6vh;
+    font-family: 'Lato', sans-serif;
+}
+.mainblog{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 4em;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+.mainblog h3{
+    text-align: right;
+    color:rgb(42, 120, 165);
+    font-size: 2.6vw;
+    font-family: cursive;
+}
+.mainblog p{
+    font-size: 2.6vh;
+    font-family: 'Lato', sans-serif;
+}
+.mainpost{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 4em;
+    background-color: rgba(12, 151, 243, 0.253);
+}
+.mainpost h3{
+    color: brown;
+    font-size: 2.6vw;
+    font-family: cursive;
+}
+.mainpost p{
+    font-size: 2.6vh;
+    font-family: 'Lato', sans-serif;
 }
 .bottom{
     display: flex;
