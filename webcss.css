@@ -719,7 +719,7 @@ padding: 3em;
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgba(68, 68, 68, 0.753);
     text-align: justify;
-    font-size: 1.9vh;
+    font-size: 2.1vh;
     line-height: 2em;
     margin-bottom: -5%;
 }
@@ -742,7 +742,7 @@ padding: 3em;
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgba(68, 68, 68, 0.753);
     text-align: justify;
-    font-size: 1.9vh;
+    font-size: 2.1vh;
     line-height: 2em;
     margin-bottom: -5%;
 }
@@ -764,7 +764,7 @@ padding: 3em;
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgba(68, 68, 68, 0.753);
     text-align: justify;
-    font-size: 1.9vh;
+    font-size: 2.1vh;
     line-height: 2em;
     margin-bottom: -5%;
 }
@@ -787,7 +787,7 @@ padding: 3em;
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgba(68, 68, 68, 0.753);
     text-align: justify;
-    font-size: 1.9vh;
+    font-size: 2.1vh;
     line-height: 2em;
     margin-bottom: -5%;
 }
@@ -809,7 +809,7 @@ padding: 3em;
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgba(68, 68, 68, 0.753);
     text-align: justify;
-    font-size: 1.9vh;
+    font-size: 2.1vh;
     line-height: 2em;
     margin-bottom: -5%;
 }
@@ -835,6 +835,7 @@ padding: 3em;
     max-width: 1.5em ;
 }
 .bottomleft a{
+    text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     justify-content: center;
