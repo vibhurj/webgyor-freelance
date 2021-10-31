@@ -63,14 +63,15 @@ html{
     top: 0; 
 }
 .gif{
-    height: 65%;;
+    height: 60%;
+    margin-right: .2em;
 
 }
 .navbutton{
     display: none;
     background: none;
     position: absolute;
-    right: .5em;
+    right: 0;
 }
 .navbutton a{
     background: none;
@@ -562,10 +563,10 @@ padding: 3em;
         z-index: 90;
         border-radius: .7em;
         justify-content: center;
-        margin-right: 8%;
+        margin-right: 10%;
         padding-right: 5em;
         background-color: #000000;
-background-image: linear-gradient(-190deg, #031033 40%, #02426d 94%);
+        background-image: linear-gradient(-190deg, #031033 40%, #02426d 94%);
     }
     span.topbtn a{
         display: flex;
