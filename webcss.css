@@ -197,14 +197,24 @@ padding: 3em;
     color: rgb(189, 25, 189);
     
 }
+.about{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 10px 5px;
+    border-radius: .5em;
+    border: rgba(0, 0, 0, 0.075) 2px solid;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 1em;
+}
 .about p{
+    position: inherit;
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgba(68, 68, 68, 0.753);
     text-align: justify;
     font-size: 2.4vh;
     line-height: 2em;
     padding-right: .7em;
-    margin-top: 30%;
+   
     margin-left: 2em;
     margin-right: 2em;  
 }
@@ -236,15 +246,21 @@ padding: 3em;
     font-weight: 500;
 }
 .whovrtext{
-    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 10px 5px;
+    border-radius: .5em;
+    border: rgba(0, 0, 0, 0.075) 2px solid;
     position: relative;
-    align-items: flex-end;
+    margin-top: 20%;
+    margin-right: 1em;
+    margin-left: 1em;
     color: rgba(68, 68, 68, 0.753);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.4vh;
     line-height: 2em;
 }
 .whovrtext p{
+    position: inherit;
     text-align: justify;
     margin-left: 1em;
     margin-right: 1.5em; 
@@ -323,7 +339,7 @@ padding: 3em;
     position: relative;
     transition: ease-out .4s;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.123) -6px 0px 20px 0px;
     border-radius: .5em;
 }
 .imgweb{
@@ -333,7 +349,7 @@ padding: 3em;
 .serweb:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) -3px 0px 9px 0px;
 }
 .sercon{
     width: 14em;
@@ -345,7 +361,7 @@ padding: 3em;
     align-items: center;
     justify-content: center;
     margin-right: 2%;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.123) 6px 0px 20px 0px;
     border-radius: .5em;
 }
 .imgcon{
@@ -355,7 +371,7 @@ padding: 3em;
 .sercon:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 3px 0px 9px 0px;
 }
 .sersoc{
     width: 14em;
@@ -368,7 +384,7 @@ padding: 3em;
     border-radius: .5em;
     text-align: center;
     margin-right: 2%;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.123) -6px 0px 20px 0px;
     border-radius: .5em;
 }
 .imgsoc{
@@ -385,7 +401,7 @@ padding: 3em;
 .sersoc:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) -3px 0px 9px 0px;
 }
 .serblog{
     width: 14em;
@@ -398,7 +414,7 @@ padding: 3em;
     transition: ease-out .4s;
     border-radius: .5em;
     margin-right: 2%;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.123) 6px 0px 20px 0px;
     border-radius: .5em;
 }
 .imgblog{
@@ -415,7 +431,7 @@ padding: 3em;
 .serblog:hover{
     cursor: pointer;
     transition: ease-in-out .3s;
-    box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 9px 0px;
+    box-shadow: rgba(0, 0, 0, 0.295) 3px 0px 9px 0px;
 }
 #totop{
     display: none;
@@ -624,6 +640,9 @@ padding: 3em;
         margin-left: auto;
         justify-content: center;
     }
+    .about{
+        margin: 1em;
+    }
 .about p{
     margin:4%;
     margin-right: 1%;
@@ -649,6 +668,8 @@ padding: 3em;
         margin-top: 3em;
     }
     .whovrtext{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
         text-align: left;
         justify-content: center;
         font-size: .95em;
