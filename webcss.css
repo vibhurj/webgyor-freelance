@@ -7,8 +7,8 @@ html{
     scroll-behavior: smooth;
 }
 .slide-in-blurred-top {
-	-webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-blurred-top 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-top 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 .scale-in-center {
 	-webkit-animation: scale-in-center .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -491,8 +491,8 @@ padding: 3em;
       }
     }
     .focus-in-contract {
-        -webkit-animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
 @-webkit-keyframes focus-in-contract {
     0% {
@@ -603,6 +603,7 @@ padding: 3em;
         font-weight: 200;
     }
     .moblogo{
+        display: block;
         width: 100vw;
         height: 100wh;
     }
