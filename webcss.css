@@ -146,6 +146,9 @@ span.topbtn{
     position: relative;
     color: rgb(167, 166, 166);  
 }
+.moblogo{
+    display: none;
+}
 .free{
     display: none;
 }
