@@ -438,6 +438,7 @@ padding: 3em;
     position: fixed;
     right: 0;
     bottom: 0;
+    margin-bottom: 7em;
     background: none;
     z-index: 1;
     cursor: pointer;
@@ -904,6 +905,6 @@ padding: 3em;
         justify-content: center;
     }
    .loader{
-        width: 510px;
+        width: 110px;
     }
 
