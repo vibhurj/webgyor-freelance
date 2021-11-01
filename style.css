@@ -1,0 +1,21 @@
+.logo{
+    width: 17%;
+    height: 119;
+}
+.main-head{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+body,html{
+    margin: 0;
+}
+.main-nav a:hover{
+    background-color: rgba(225, 255,255,.3);
+}
+.main-nav li{
+    padding-left: 1rem;
+}
+.imgtm{
+    width: 296px;
+    height: 283px;
+    border-radius: 50%;
+}
