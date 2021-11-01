@@ -14,8 +14,18 @@ html{
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-
-
+a{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a:focus {
+    outline: none !important;
+}
  @-webkit-keyframes fade-in {
     0% {
       opacity: 0;
@@ -475,6 +485,18 @@ padding: 3em;
         position: relative;
         z-index: 90;
     }
+    a {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    a:focus {
+        outline: none !important;
+    }
     #pageloader img{
         width: 85px;
     }
@@ -608,37 +630,6 @@ padding: 3em;
         opacity: 1;
       }
     }
-    .focus-in-contract {
-        -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    }
-@-webkit-keyframes focus-in-contract {
-    0% {
-      letter-spacing: 1em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  @keyframes focus-in-contract {
-    0% {
-      letter-spacing: 1em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  
     @keyframes slide-in-blurred-top {
         0% {
           -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
