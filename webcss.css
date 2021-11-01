@@ -820,7 +820,7 @@ padding: 3em;
         font-size: .8em;
     }
     #totop{
-        margin-bottom: 8em;
+        margin-bottom: 5em;
     }
 }
 .mainweb{
@@ -939,12 +939,12 @@ padding: 3em;
     display: flex;
     width: 100%;
     margin-top: 1.5em;
-    padding-top: 2em;
+    padding-top: 1em;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.041) 0px -4px 10px 0px;
 }
 .gmail{
-    margin-left: 3.9em;
+    margin-left: 4em;
 }
 .bottomleft ul{
     display: flex;
@@ -960,6 +960,7 @@ padding: 3em;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
+    font-size: 1.7vh;
     justify-content: center;
     margin-top: 6vh;
 }
@@ -985,7 +986,7 @@ padding: 3em;
     font-weight: 500;
     color: #000000ad;
     font-weight: 300;
-    margin-top: 28vh;
+    margin-top: 17vh;
     text-align:right;
     margin-right: 2em;
 }
