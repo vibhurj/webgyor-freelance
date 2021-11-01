@@ -14,7 +14,7 @@ html{
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-a{
+a,.gotop{
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -23,7 +23,7 @@ a{
     -ms-user-select: none;
     user-select: none;
 }
-a:focus {
+a:focus,.gotop {
     outline: none !important;
 }
  @-webkit-keyframes fade-in {
@@ -485,7 +485,7 @@ padding: 3em;
         position: relative;
         z-index: 90;
     }
-    a {
+    a,.gotop {
         -webkit-tap-highlight-color: transparent;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -494,7 +494,7 @@ padding: 3em;
         -ms-user-select: none;
         user-select: none;
     }
-    a:focus {
+    a:focus,.gotop {
         outline: none !important;
     }
     #pageloader img{
