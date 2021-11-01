@@ -441,7 +441,7 @@ padding: 3em;
     position: fixed;
     right: 0;
     bottom: 0;
-    margin-bottom: 7em;
+    margin-bottom: 8em;
     background: none;
     z-index: 1;
     cursor: pointer;
@@ -956,7 +956,7 @@ padding: 3em;
     min-width: 1.1em;
     max-width: 1.5em ;
 }
-.bottomleft a{
+.bottomleft p{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
