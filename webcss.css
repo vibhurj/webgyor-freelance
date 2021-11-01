@@ -281,6 +281,7 @@ padding: 3em;
 }
 
 .services h2{
+    margin-left: -.5em;
     font-family: 'Philosopher', sans-serif;
     color:rgb(39, 119, 194);
     font-size: 1.5em;
