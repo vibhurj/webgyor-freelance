@@ -499,7 +499,7 @@ padding: 3em;
         outline: none !important;
     }
     #pageloader img{
-        width: 85px;
+        width: 110px;
     }
     .slide-in-blurred-top {
         -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -815,7 +815,6 @@ padding: 3em;
     margin-top: 01em;
     font-size: 4vw;
 }
-
     .gmail{
         font-size: .8em;
     }
@@ -1001,6 +1000,6 @@ padding: 3em;
         justify-content: center;
     }
    .loader{
-        width: 110px;
+        width: 150px;
     }
 
